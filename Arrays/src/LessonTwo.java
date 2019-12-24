@@ -99,7 +99,7 @@ public class LessonTwo {
     }
 
     private static boolean arrBalance(int[] arr) {
-        for(int i = 0; i <= arr.length; i++) {
+        for(int i = 0; i < arr.length; i++) {
             //При каждой интерации цикла обнуляем переменные
             int leftSum = 0;
             int rightSum = 0;

@@ -34,7 +34,7 @@ public class TaskTwo {
                 //Эта дикая конструкция сравнивает ответ и вопрос посимвольно и заносит совпадения в массив
                 //с соответствующими индексами
                 for(int i = 0; i < answer.length() && i < arr[randIndex].length(); i++){
-                    if(String.valueOf(answer.charAt(i)).equals(String.valueOf(arr[randIndex].charAt(i)))) {
+                    if(answer.charAt(i) == arr[randIndex].charAt(i)) {
                         arrCompare[i] = String.valueOf(answer.charAt(i));
                     }
                 }

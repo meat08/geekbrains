@@ -1,10 +1,10 @@
 package ru.geekbrains.lessonseven;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Cat> catsArr = new ArrayList<>();
+        List<Cat> catsArr = new ArrayList<>();
         catsArr.add(new Cat("Барсик", 15));
         catsArr.add(new Cat("Мурзик", 20));
         catsArr.add(new Cat("Борис", 18));

@@ -1,4 +1,4 @@
-package ru.geekbrains.lessonseven;
+package ru.geekbrains.java1.lessonseven;
 
 import java.util.*;
 

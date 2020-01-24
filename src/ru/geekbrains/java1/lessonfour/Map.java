@@ -1,4 +1,4 @@
-package ru.geekbrains.lessonfour;
+package ru.geekbrains.java1.lessonfour;
 
 public class Map {
     private static final char DOT_EMPTY = '•';

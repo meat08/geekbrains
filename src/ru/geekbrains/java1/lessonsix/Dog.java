@@ -1,4 +1,4 @@
-package ru.geekbrains.lessonsix;
+package ru.geekbrains.java1.lessonsix;
 
 public class Dog extends Animals {
     private String result;

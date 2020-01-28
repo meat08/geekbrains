@@ -7,7 +7,8 @@ import java.awt.*;
 public class Window extends JFrame {
     private int x1 = 0, x2 = 500, x3 = 250;
     private int y1 = 0, y2 = 0, y3 = 500;
-    private boolean paint = false;
+    private volatile boolean paint = false;
+    private DrawPanel dPanel;
 
     public Window() {
         setTitle("Окошко");
@@ -18,7 +19,7 @@ public class Window extends JFrame {
         setLayout(new BorderLayout());
         add(button, BorderLayout.NORTH);
         setResizable(false);
-        DrawPanel dPanel = new DrawPanel();
+        dPanel = new DrawPanel();
         add(dPanel);
 
         button.addActionListener(e -> {
@@ -27,7 +28,16 @@ public class Window extends JFrame {
             paint = true;
             remove(button);
         });
+        while (!paint) {
+            Thread.onSpinWait();
+        }
+        paintOval();
+    }
 
+    public static void main(String[] args) {
+        new Window();
+    }
+    private void paintOval () {
         for(int i = 0; i<220; i++){
             x1++;
             y1++;
@@ -39,10 +49,6 @@ public class Window extends JFrame {
                 Thread.sleep(50);
             }catch (Exception ignored){}
         }
-    }
-
-    public static void main(String[] args) {
-        new Window();
     }
 
     private class DrawPanel extends JPanel {

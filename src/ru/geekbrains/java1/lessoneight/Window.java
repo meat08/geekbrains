@@ -52,11 +52,11 @@ public class Window extends JFrame {
                 g.setColor(Color.WHITE);
                 g.fillRect(0,0,this.getWidth(),this.getHeight());
 
-                g.setColor(Color.RED);
+                g.setColor(new Color(255, 0, 0, 150));
                 g.fillOval(x1,y1,100,100);
-                g.setColor(Color.GREEN);
+                g.setColor(new Color(0, 255, 0, 150));
                 g.fillOval(x2,y2,100,100);
-                g.setColor(Color.BLUE);
+                g.setColor(new Color(0, 0, 255, 150));
                 g.fillOval(x3,y3,100,100);
 
             }

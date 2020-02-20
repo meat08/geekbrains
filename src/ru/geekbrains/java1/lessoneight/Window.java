@@ -28,9 +28,9 @@ public class Window extends JFrame {
             paint = true;
             remove(button);
         });
-        while (!paint) {
-            Thread.onSpinWait();
-        }
+//        while (!paint) {
+//            Thread.onSpinWait();
+//        }
         paintOval();
     }
 

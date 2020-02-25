@@ -20,11 +20,14 @@ public class TestExceptions {
     }
 
     public static int myExceptions(String[][] arr) throws MyArraySizeException, MyArrayDataException {
-        if (arr.length > 4 | arr[0].length > 4) throw new MyArraySizeException();
+        if (arr.length > 4) throw new MyArraySizeException();
+        for(int i = 0; i < arr.length; i++) {
+            if(arr[i].length > 4) throw new MyArraySizeException();
+        }
         int sum = 0;
         for (int x = 0; x < arr.length; x++) {
             for (int y = 0; y < arr[x].length; y++) {
-                if(isInteger(arr[x][y])) throw new MyArrayDataException(x, y);
+                if(!isInteger(arr[x][y])) throw new MyArrayDataException(x, y);
                 else sum += Integer.parseInt(arr[x][y]);
             }
         }
@@ -35,8 +38,8 @@ public class TestExceptions {
         try {
             Integer.parseInt(s);
         } catch(NumberFormatException | NullPointerException e) {
-            return true;
+            return false;
         }
-        return false;
+        return true;
     }
 }

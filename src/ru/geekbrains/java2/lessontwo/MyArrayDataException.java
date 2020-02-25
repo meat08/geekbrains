@@ -3,7 +3,6 @@ package ru.geekbrains.java2.lessontwo;
 public class MyArrayDataException extends  NumberFormatException {
     private int x;
     private int y;
-    private int sum;
 
     public MyArrayDataException (int x, int y) {
         this.x = x;

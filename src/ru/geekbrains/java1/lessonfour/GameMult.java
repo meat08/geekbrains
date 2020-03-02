@@ -7,14 +7,14 @@ public class GameMult {
     private static final char DOT_O = 'O';
     private static int turnCount = 0;
     private static Random random = new Random();
-    private static Map map = new Map();
+    private static GameMap gameMap = new GameMap();
 
 
     private static void humanTurn(char dot) {
         int x, y;
         do {
             System.out.println("Ход игрока " + dot);
-            System.out.println("Введите координаты в формате X Y.\nОт 0 до " + Map.SIZE);
+            System.out.println("Введите координаты в формате X Y.\nОт 0 до " + GameMap.SIZE);
             while(!Main.scanner.hasNextInt()) {
                 System.out.println("Введите число!");
                 Main.scanner.next();
@@ -25,17 +25,17 @@ public class GameMult {
                 Main.scanner.next();
             }
             y = Main.scanner.nextInt() - 1;
-        } while (map.isCellValid(x, y));
-        map.setMap(x, y, dot);
+        } while (gameMap.isCellValid(x, y));
+        gameMap.setMap(x, y, dot);
         turnCount++;
     }
 
     private static boolean endTurn(char dot) {
-        if(map.checkWin(dot)) {
+        if(gameMap.checkWin(dot)) {
             System.out.println("Победил игрок " + dot);
             return true;
         }
-        if (map.isMapFull()) {
+        if (gameMap.isMapFull()) {
             System.out.println("Ничья");
             return true;
         }
@@ -43,15 +43,15 @@ public class GameMult {
     }
 
     public static void startGame(){
-        map.getMap();
+        gameMap.getMap();
         while(true){
             humanTurn(DOT_X);
-            map.getMap();
+            gameMap.getMap();
             if(turnCount >= 4) {
                 if(endTurn(DOT_X)) break;
             }
             humanTurn(DOT_O);
-            map.getMap();
+            gameMap.getMap();
             if(turnCount >= 4) {
                 if(endTurn(DOT_O)) break;
             }

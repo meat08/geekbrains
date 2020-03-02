@@ -1,11 +1,11 @@
 package ru.geekbrains.java1.lessonfour;
 
-public class Map {
+public class GameMap {
     private static final char DOT_EMPTY = '•';
     public static int SIZE = 3;
     private static char[][] map;
 
-    public Map() {
+    public GameMap() {
         map = new char[SIZE][SIZE];
         for (int i = 0; i < SIZE; i++) {
             for (int j = 0; j < SIZE; j++) {

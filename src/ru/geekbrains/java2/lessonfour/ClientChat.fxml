@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane minWidth="400.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.geekbrains.java2.lessonfour.ClientChat">
+   <TextField fx:id="textMessage" layoutX="84.0" layoutY="374.0" prefHeight="25.0" prefWidth="433.0" promptText="Введите сообщение" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="83.0"/>
+   <Button fx:id="sendButton" layoutX="518.0" layoutY="374.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" text="Отправить" AnchorPane.bottomAnchor="1.0" AnchorPane.rightAnchor="0.0" />
+   <ListView fx:id="messageViewList" focusTraversable="false" layoutX="85.0" layoutY="1.0" prefHeight="372.0" prefWidth="516.0" AnchorPane.bottomAnchor="27.0" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="1.0" />
+   <ListView id="memberList" fx:id="memberList" focusTraversable="false" layoutY="1.0" prefHeight="398.0" prefWidth="82.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0" AnchorPane.topAnchor="1.0" />
+</AnchorPane>

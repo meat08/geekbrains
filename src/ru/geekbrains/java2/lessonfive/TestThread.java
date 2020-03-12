@@ -16,9 +16,9 @@ public class TestThread {
         }
     }
 
-    private static void calculateArr(float[] arr) {
+    private static void calculateArr(float[] arr, int offset) {
         for(int i = 0; i < arr.length; i++) {
-            arr[i] = (float)(arr[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math.cos(0.4f + i / 2));
+            arr[i] = (float)(arr[i] * Math.sin(0.2f + (i + offset) / 5) * Math.cos(0.2f + (i + offset) / 5) * Math.cos(0.4f + (i + offset) / 2));
         }
     }
 
@@ -26,7 +26,7 @@ public class TestThread {
         Arrays.fill(arr, 1);
         System.out.println("Процесс подсчета запущен (без потоков).");
         long startTime = System.currentTimeMillis();
-        calculateArr(arr);
+        calculateArr(arr, 0);
         long endTime = System.currentTimeMillis();
         System.out.println("Время, затраченное на задачу без потоков: " + (endTime - startTime));
     }
@@ -39,8 +39,8 @@ public class TestThread {
         long startTime = System.currentTimeMillis();
         System.arraycopy(arr, 0, a1, 0, h);
         System.arraycopy(arr, h, a2, 0, h);
-        Thread thread1 = new Thread(() -> calculateArr(a1));
-        Thread thread2 = new Thread(() -> calculateArr(a2));
+        Thread thread1 = new Thread(() -> calculateArr(a1, 0));
+        Thread thread2 = new Thread(() -> calculateArr(a2, h));
         thread1.start();
         thread2.start();
         thread1.join();

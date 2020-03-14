@@ -7,16 +7,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class EchoServer {
-    private static int clientNumber = 0;
+    private int clientNumber;
     private DataInputStream inputStream;
     private Socket socket;
-    private String sender;
     private static Map<Integer, Socket> clientSocket = new HashMap<>();
     private static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-    public EchoServer(Socket socket, String sender) throws IOException {
+    public EchoServer(Socket socket, int clientNumber) throws IOException {
         this.socket = socket;
-        this.sender = sender;
+        this.clientNumber = clientNumber;
         inputStream = new DataInputStream(socket.getInputStream());
     }
 
@@ -24,18 +23,17 @@ public class EchoServer {
 
         try (ServerSocket serverSocket = new ServerSocket(8888)) {
             System.out.println("Сервер запущен. Ожидаем клиентов.");
-
+            int counter = 0;
             new Thread(() -> messageSendBroadcast(clientSocket)).start();
 
             while (true) {
-                clientSocket.put(clientNumber, serverSocket.accept());
-                System.out.println("Клиент " + clientNumber + " подключен.");
-                EchoServer client = new EchoServer(clientSocket.get(clientNumber), "Клиент " + clientNumber);
+                clientSocket.put(counter, serverSocket.accept());
+                System.out.println("Клиент " + counter + " подключен.");
+                EchoServer client = new EchoServer(clientSocket.get(counter), counter);
                 new Thread(client::messageGet).start();
-
-                clientNumber++;
+                counter++;
             }
-
+            
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -45,9 +43,9 @@ public class EchoServer {
         while (true) {
             try {
                 String message = inputStream.readUTF();
-                System.out.println(sender + " написал: " + message);
+                System.out.println("Клиент " + clientNumber + " написал: " + message);
             } catch (IOException e) {
-                removeClient(socket);
+                removeClient(clientNumber);
                 //e.printStackTrace();
                 break;
             }
@@ -73,17 +71,14 @@ public class EchoServer {
         }
     }
 
-    public void removeClient(Socket socket) {
-        for(Map.Entry<Integer, Socket> client : clientSocket.entrySet()) {
-            if (client.getValue().equals(socket)) {
-                clientSocket.remove(client.getKey());
-                System.out.println("Клиент " + client.getKey() + " отключен.");
-            }
-            try {
-                socket.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+    public void removeClient(int clientNumber) {
+        clientSocket.remove(clientNumber);
+        System.out.println("Клиент " + clientNumber + " отключен.");
+        try {
+            socket.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+
     }
 }

@@ -6,8 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="ДЗ Урок 6">
-      <change afterPath="$PROJECT_DIR$/NetworkServerChat/NetworkServerChat.iml" afterDir="false" />
+    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="Update project">
+      <change afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/NetworkClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/controller/AuthEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/model/NetworkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/AuthDialog.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/AuthDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/ClientChat.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/ClientChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/NetworkServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/ServerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/auth/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/auth/BaseAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/client/ClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -19,17 +31,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="FxmlFile" />
         <option value="CSS File" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson-6" />
+        <entry key="$PROJECT_DIR$" value="lesson-7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,7 +62,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="D:/Downloads/GeekBrains_Java2_2020_02_20-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -57,22 +70,30 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.geekbrains.java2.client.model" />
+      <recent name="ru.geekbrains.java2.client.controller" />
+      <recent name="ru.geekbrains.java2.server.auth" />
+      <recent name="ru.geekbrains.java2.server.client" />
+      <recent name="ru.geekbrains.java2.server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkClientChat\src\ru\geekbrains\java2\client\view" />
+      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat" />
       <recent name="D:\My docs\Обучение\geekbrains\.idea" />
       <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.EchoServer">
-    <configuration name="EchoClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.lessonsix.EchoClient" />
-      <module name="geekbrains" />
+  <component name="RunManager" selected="Application.NetworkClient">
+    <configuration name="NetworkClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.NetworkClient" />
+      <module name="NetworkClientChat" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java2.lessonsix.*" />
+          <option name="PATTERN" value="ru.geekbrains.java2.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,51 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.lessonsix.EchoServer" />
-      <module name="geekbrains" />
+    <configuration name="ServerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.server.ServerApp" />
+      <module name="NetworkServerChat" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java2.lessonsix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.lessonfive.TestThread" />
-      <module name="geekbrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java2.lessonfive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Window" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java1.lessoneight.Window" />
-      <module name="geekbrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java1.lessoneight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Words" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.lessonthree.Words" />
-      <module name="geekbrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java2.lessonthree.*" />
+          <option name="PATTERN" value="ru.geekbrains.java2.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,19 +115,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.EchoClient" />
-      <item itemvalue="Application.EchoServer" />
-      <item itemvalue="Application.TestThread" />
-      <item itemvalue="Application.Window" />
-      <item itemvalue="Application.Words" />
+      <item itemvalue="Application.ServerApp" />
+      <item itemvalue="Application.NetworkClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Words" />
-        <item itemvalue="Application.Window" />
-        <item itemvalue="Application.TestThread" />
-        <item itemvalue="Application.EchoServer" />
-        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.NetworkClient" />
+        <item itemvalue="Application.ServerApp" />
+        <item itemvalue="Application.NetworkClient" />
+        <item itemvalue="Application.ServerApp" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +173,10 @@
       <workItem from="1584035902675" duration="12894000" />
       <workItem from="1584081577848" duration="19644000" />
       <workItem from="1584169015045" duration="3013000" />
-      <workItem from="1584381822352" duration="1019000" />
+      <workItem from="1584381822352" duration="3468000" />
+      <workItem from="1584521054763" duration="29826000" />
+      <workItem from="1584554785636" duration="1474000" />
+      <workItem from="1584556585206" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="Add .idea folder">
       <created>1582232080611</created>
@@ -267,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584101650759</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update project">
+      <created>1584384067902</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584384067902</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update project">
+      <created>1584389821557</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584389821557</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +291,8 @@
     <MESSAGE value="ДЗ Урок 4" />
     <MESSAGE value="ДЗ Урок 5" />
     <MESSAGE value="ДЗ Урок 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ Урок 6" />
+    <MESSAGE value="Update project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="178" key="#Inspections" timestamp="1584101639918">
@@ -307,14 +303,14 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1512" y="179" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1584050811315" />
-    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584050249480">
+    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584555057836">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584050249480" />
-    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1583181919812">
+    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584555057836" />
+    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1584529740149">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1583181919812" />
+    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1584529740149" />
     <state x="1671" y="371" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583494758881">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -327,50 +323,50 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1650" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1582294131989" />
-    <state x="1545" y="115" key="CommitChangelistDialog2" timestamp="1584101650213">
+    <state x="1545" y="115" key="CommitChangelistDialog2" timestamp="1584557714372">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1545" y="115" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1584101650213" />
+    <state x="1545" y="115" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1584557714372" />
     <state width="434" height="466" key="DebuggerActiveHint" timestamp="1582981816970">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="434" height="466" key="DebuggerActiveHint/0.0.2560.1040@0.0.2560.1040" timestamp="1582981816970" />
-    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1584046720761">
+    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1584521068231">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1584046720761" />
-    <state width="2517" height="345" key="GridCell.Tab.0.bottom" timestamp="1584172569129">
+    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1584521068231" />
+    <state width="2517" height="267" key="GridCell.Tab.0.bottom" timestamp="1584557739024">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="345" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1584172569129" />
-    <state width="2517" height="345" key="GridCell.Tab.0.center" timestamp="1584172569129">
+    <state width="2517" height="267" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1584557739024" />
+    <state width="2517" height="267" key="GridCell.Tab.0.center" timestamp="1584557739023">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="345" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1584172569129" />
-    <state width="2517" height="345" key="GridCell.Tab.0.left" timestamp="1584172569129">
+    <state width="2517" height="267" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1584557739023" />
+    <state width="2517" height="267" key="GridCell.Tab.0.left" timestamp="1584557739023">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="345" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1584172569129" />
-    <state width="2517" height="345" key="GridCell.Tab.0.right" timestamp="1584172569129">
+    <state width="2517" height="267" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1584557739023" />
+    <state width="2517" height="267" key="GridCell.Tab.0.right" timestamp="1584557739023">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="345" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1584172569129" />
-    <state width="2517" height="345" key="GridCell.Tab.1.bottom" timestamp="1584172569129">
+    <state width="2517" height="267" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1584557739023" />
+    <state width="2517" height="344" key="GridCell.Tab.1.bottom" timestamp="1584553701049">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="345" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1584172569129" />
-    <state width="2517" height="345" key="GridCell.Tab.1.center" timestamp="1584172569129">
+    <state width="2517" height="344" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1584553701049" />
+    <state width="2517" height="344" key="GridCell.Tab.1.center" timestamp="1584553701049">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="345" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1584172569129" />
-    <state width="2517" height="345" key="GridCell.Tab.1.left" timestamp="1584172569129">
+    <state width="2517" height="344" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1584553701049" />
+    <state width="2517" height="344" key="GridCell.Tab.1.left" timestamp="1584553701049">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="345" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1584172569129" />
-    <state width="2517" height="345" key="GridCell.Tab.1.right" timestamp="1584172569129">
+    <state width="2517" height="344" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1584553701049" />
+    <state width="2517" height="344" key="GridCell.Tab.1.right" timestamp="1584553701049">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="345" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1584172569129" />
+    <state width="2517" height="344" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1584553701049" />
     <state x="992" y="236" key="MultipleFileMergeDialog" timestamp="1584170174056">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -379,10 +375,14 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1421" y="162" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1583495763285" />
-    <state x="1512" y="254" key="Vcs.Push.Dialog.v2" timestamp="1584381953643">
+    <state x="1159" y="314" key="UIDesigner.ListEditorDialog" timestamp="1584550521749">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1584381953643" />
+    <state x="1159" y="314" key="UIDesigner.ListEditorDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584550521749" />
+    <state x="1512" y="254" key="Vcs.Push.Dialog.v2" timestamp="1584389842146">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1512" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1584389842146" />
     <state width="647" height="520" key="XDebugger.FullValuePopup" timestamp="1580157958911">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -399,6 +399,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1650" y="275" key="extract.method.dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584044328648" />
+    <state x="1616" y="255" width="607" height="536" key="find.popup" timestamp="1584539914063">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1616" y="255" width="607" height="536" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1584539914063" />
     <state x="1701" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1584170154393">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -411,18 +415,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1081" y="384" key="git4idea.rebase.GitRebaseDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584170108707" />
-    <state x="1302" y="140" key="new project wizard" timestamp="1584383663416">
+    <state width="300" height="36" key="javadoc.popup" timestamp="1584551197996">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1302" y="140" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1584383663416" />
+    <state width="300" height="36" key="javadoc.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1584551197996" />
+    <state x="1302" y="140" key="new project wizard" timestamp="1584388634437">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1302" y="140" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1584388634437" />
     <state x="1608" y="367" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1580156635259">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1608" y="367" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1580156635259" />
-    <state x="986" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1583182152390">
+    <state x="986" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1584540079743">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="986" y="148" key="refactoring.ChangeSignatureDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1583182152390" />
+    <state x="986" y="148" key="refactoring.ChangeSignatureDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584540079743" />
     <state x="1583" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1582570075951">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

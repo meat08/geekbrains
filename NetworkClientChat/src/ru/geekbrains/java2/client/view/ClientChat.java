@@ -21,6 +21,7 @@ public class ClientChat extends JFrame {
         this.controller = controller;
         //setTitle(controller.getUsername());
         usersList.setModel(model);
+        chatText.setEditable(false);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(640, 480);
         setLocationRelativeTo(null);

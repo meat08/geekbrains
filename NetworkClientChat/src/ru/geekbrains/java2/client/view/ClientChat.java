@@ -64,6 +64,10 @@ public class ClientChat extends JFrame {
         }
     }
 
+    public void showError(String message) {
+        JOptionPane.showMessageDialog(this, message);
+    }
+
     private void appendOwnMessage(String message) {
         appendMessage("Я: " + message);
     }

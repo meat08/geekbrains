@@ -3,7 +3,6 @@ package ru.geekbrains.java2.client.model;
 import ru.geekbrains.java2.client.controller.AuthEvent;
 import ru.geekbrains.java2.client.controller.ClientController;
 
-import javax.swing.*;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -49,10 +48,10 @@ public class NetworkService {
                         successfulAuthEvent.authIsSuccessful(nickname);
                     }
                     else if (message.startsWith("/error")) {
-                        JOptionPane.showMessageDialog(null, "Неверный логин или пароль");
+                        controller.showError("Неверный логин или пароль");
                     }
                     else if (message.startsWith("/duplicate")) {
-                        JOptionPane.showMessageDialog(null, "Пользователь с таким логином уже вошел в чат.");
+                        controller.showError("Пользователь с таким логином уже вошел в чат.");
                     }
                     else if (message.startsWith("/list")) {
                         String[] messageParts = message.split("\\s+", 2);
@@ -64,7 +63,7 @@ public class NetworkService {
                     }
                 } catch (IOException e) {
                     System.out.println("Поток чтения прерван.");
-                    JOptionPane.showMessageDialog(null, "Сервер недоступен. Программа будет закрыта.");
+                    controller.showError("Сервер недоступен. Программа будет закрыта.");
                     System.exit(0);
                     return;
                 }

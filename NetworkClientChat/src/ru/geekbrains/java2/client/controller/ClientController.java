@@ -4,7 +4,6 @@ import ru.geekbrains.java2.client.model.NetworkService;
 import ru.geekbrains.java2.client.view.AuthDialog;
 import ru.geekbrains.java2.client.view.ClientChat;
 
-import javax.swing.*;
 import java.io.IOException;
 
 public class ClientController {
@@ -30,7 +29,7 @@ public class ClientController {
             networkService.connect();
         } catch (IOException e) {
             System.err.println("Ошибка подключения к серверу.");
-            JOptionPane.showMessageDialog(null, "Ошибка подключения к серверу.");
+            clientChat.showError("Ошибка подключения к серверу.");
             throw e;
         }
     }
@@ -70,11 +69,15 @@ public class ClientController {
         return nickname;
     }
 
+    public void showError(String message) {
+        clientChat.showError(message);
+    }
+
     public void sendMessage(String message) {
         try {
             networkService.sendMessage(message);
         } catch (IOException e) {
-            JOptionPane.showMessageDialog(null, "Ошибка отправки сообщения.");
+            clientChat.showError("Ошибка отправки сообщения.");
             e.printStackTrace();
         }
     }

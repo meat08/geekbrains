@@ -47,7 +47,7 @@ public class ClientController {
     private void connectToServer() throws IOException {
         try {
             networkService.connect(this);
-            authDialog.timer.start();
+            authDialog.getTimer().start();
         } catch (IOException e) {
             clientChat.showError("Ошибка подключения к серверу.");
             throw e;
@@ -106,6 +106,6 @@ public class ClientController {
     }
 
     public void stopTimer() {
-        authDialog.timer.stop();
+        authDialog.getTimer().stop();
     }
 }

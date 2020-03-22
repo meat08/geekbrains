@@ -13,7 +13,7 @@ public class AuthDialog extends JFrame {
     private JTextField loginText;
     private JPasswordField passwordText;
     private JLabel timerLabel;
-    public Timer timer;
+    private Timer timer;
     private int count = 120;
 
     private ClientController controller;
@@ -57,6 +57,8 @@ public class AuthDialog extends JFrame {
             JOptionPane.showMessageDialog(this, "Ошибка при попытки аутентификации");
         }
     }
+
+    public Timer getTimer() { return timer; }
 
     public void showError(String message) {
         JOptionPane.showMessageDialog(this, message);

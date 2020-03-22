@@ -12,6 +12,9 @@ public class AuthDialog extends JFrame {
     private JButton buttonCancel;
     private JTextField loginText;
     private JPasswordField passwordText;
+    private JLabel timerLabel;
+    public Timer timer;
+    private int count = 120;
 
     private ClientController controller;
 
@@ -23,6 +26,15 @@ public class AuthDialog extends JFrame {
         setSize(400, 150);
         setResizable(false);
         setLocationRelativeTo(null);
+        timer = new Timer(1000, e -> {
+            if (count > 0) {
+                timerLabel.setText(String.valueOf(count--));
+            } else {
+                ((Timer) (e.getSource())).stop();
+                controller.disconnectFromServer();
+            }
+        });
+        timer.setInitialDelay(0);
 
         buttonOK.addActionListener(e -> onOK());
 
@@ -44,6 +56,10 @@ public class AuthDialog extends JFrame {
         } catch (IOException e) {
             JOptionPane.showMessageDialog(this, "Ошибка при попытки аутентификации");
         }
+    }
+
+    public void showError(String message) {
+        JOptionPane.showMessageDialog(this, message);
     }
 
     private void onCancel() {

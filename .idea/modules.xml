@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NetworkClientChat/NetworkClientChat.iml" filepath="$PROJECT_DIR$/NetworkClientChat/NetworkClientChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetworkClientServer/NetworkClientServer.iml" filepath="$PROJECT_DIR$/NetworkClientServer/NetworkClientServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/NetworkServerChat/NetworkServerChat.iml" filepath="$PROJECT_DIR$/NetworkServerChat/NetworkServerChat.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/geekbrains.iml" filepath="$PROJECT_DIR$/.idea/geekbrains.iml" />
     </modules>

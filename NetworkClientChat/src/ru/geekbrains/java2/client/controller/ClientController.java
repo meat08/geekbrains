@@ -3,8 +3,10 @@ package ru.geekbrains.java2.client.controller;
 import ru.geekbrains.java2.client.model.NetworkService;
 import ru.geekbrains.java2.client.view.AuthDialog;
 import ru.geekbrains.java2.client.view.ClientChat;
+import ru.geekbrains.java2.clientserver.Command;
 
 import java.io.IOException;
+import java.util.List;
 
 public class ClientController {
     private final NetworkService networkService;
@@ -14,7 +16,6 @@ public class ClientController {
 
     public ClientController(String serverName, int serverPort) {
         this.networkService = new NetworkService(serverName, serverPort);
-        networkService.setController(this);
         this.authDialog = new AuthDialog(this);
         this.clientChat = new ClientChat(this);
     }
@@ -24,32 +25,18 @@ public class ClientController {
         runAuthProcess();
     }
 
-    private void connectToServer() throws IOException {
-        try {
-            networkService.connect();
-        } catch (IOException e) {
-            System.err.println("Ошибка подключения к серверу.");
-            clientChat.showError("Ошибка подключения к серверу.");
-            throw e;
-        }
-    }
-
     private void runAuthProcess() {
         networkService.setSuccessfulAuthEvent(nickname -> {
-            setUserName(nickname);
-            openChat();
+            ClientController.this.setUserName(nickname);
+            clientChat.setTitle("Сетевой чат. Вы вошли как: " + nickname);
+            ClientController.this.openChat();
         });
         authDialog.setVisible(true);
-    }
-
-    public void updateUserList(String[] userList){
-        if(userList.length > 0) clientChat.setUsersList(userList);
     }
 
     private void openChat() {
         authDialog.dispose();
         networkService.setMessageHandler(clientChat::appendMessage);
-        clientChat.setTitle("Сетевой чат. Вы вошли как: " + nickname);
         clientChat.setVisible(true);
     }
 
@@ -57,8 +44,32 @@ public class ClientController {
         this.nickname = nickname;
     }
 
+    private void connectToServer() throws IOException {
+        try {
+            networkService.connect(this);
+            authDialog.timer.start();
+        } catch (IOException e) {
+            clientChat.showError("Ошибка подключения к серверу.");
+            throw e;
+        }
+    }
+
+    public void disconnectFromServer() {
+        networkService.close();
+        System.exit(0);
+    }
+
     public void sendAuthMessage(String login, String password) throws IOException {
-        networkService.sendAuthMessage(login, password);
+        networkService.sendCommand(Command.authCommand(login, password));
+    }
+
+    public void sendMessageToAllUsers(String message) {
+        try {
+            networkService.sendCommand(Command.broadcastMessageCommand(message));
+        } catch (IOException e) {
+            clientChat.showError("Ошибка отправки сообщения.");
+            e.printStackTrace();
+        }
     }
 
     public void shutdown() {
@@ -69,16 +80,32 @@ public class ClientController {
         return nickname;
     }
 
-    public void showError(String message) {
-        clientChat.showError(message);
+    public void sendPrivateMessage(String username, String message) {
+        try {
+            networkService.sendCommand(Command.privateMessageCommand(username, message));
+        } catch (IOException e) {
+            showErrorMessage(e.getMessage());
+        }
     }
 
-    public void sendMessage(String message) {
-        try {
-            networkService.sendMessage(message);
-        } catch (IOException e) {
-            clientChat.showError("Ошибка отправки сообщения.");
-            e.printStackTrace();
+    public void showErrorMessage(String errorMessage) {
+        if (clientChat.isActive()) {
+            clientChat.showError(errorMessage);
         }
+        else if (authDialog.isActive()) {
+            authDialog.showError(errorMessage);
+        }
+        System.err.println(errorMessage);
+    }
+
+
+    public void updateUserList(List<String> users){
+        users.remove(nickname);
+        users.add(0, "All");
+        clientChat.updateUsers(users);
+    }
+
+    public void stopTimer() {
+        authDialog.timer.stop();
     }
 }

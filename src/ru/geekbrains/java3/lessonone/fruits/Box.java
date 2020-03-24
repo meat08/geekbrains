@@ -2,30 +2,22 @@ package ru.geekbrains.java3.lessonone.fruits;
 
 import java.util.ArrayList;
 
-public class Box<T> {
+public class Box <T extends Fruit> {
 
-    private ArrayList<Fruit> fruitList = new ArrayList<>();
+    private ArrayList<T> fruitList = new ArrayList<>();
 
     public void addFruitToBox(T fruit) {
-        fruitList.add((Fruit) fruit);
+        fruitList.add(fruit);
     }
 
     public void moveFruitToAnotherBox(Box<T> box) {
         if(this == box) return;
-        box.getFruitList().addAll(this.getFruitList());
-        this.clearFruitList();
+        box.fruitList.addAll(this.fruitList);
+        this.fruitList.clear();
     }
 
     public boolean compareBox (Box<?> box) {
         return this.getBoxWeight() == box.getBoxWeight();
-    }
-
-    private ArrayList<Fruit> getFruitList() {
-        return fruitList;
-    }
-
-    private void clearFruitList() {
-        fruitList.clear();
     }
 
     private float getBoxWeight() {

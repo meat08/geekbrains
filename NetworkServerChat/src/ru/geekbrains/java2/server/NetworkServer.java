@@ -1,5 +1,6 @@
 package ru.geekbrains.java2.server;
 
+import ru.geekbrains.java2.clientserver.Command;
 import ru.geekbrains.java2.server.auth.AuthService;
 import ru.geekbrains.java2.server.auth.BaseAuthService;
 import ru.geekbrains.java2.server.client.ClientHandler;
@@ -7,6 +8,7 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class NetworkServer {
@@ -49,33 +51,50 @@ public class NetworkServer {
         return authService;
     }
 
-    public synchronized void privateMessage(String message, String recipient) throws IOException {
-        for (ClientHandler client : clients) {
-            if(client.getNickname().equals(recipient)) client.sendMessage(recipient + ": " + message);
-        }
-    }
-
-    public synchronized void broadcastMessage(String message, ClientHandler owner) throws IOException {
+    public /*synchronized*/ void broadcastMessage(Command message, ClientHandler owner) throws IOException {
         for (ClientHandler client : clients) {
             if(client != owner) client.sendMessage(message);
         }
     }
 
-    public synchronized void subscribe(ClientHandler clientHandler) throws IOException {
+    public /*synchronized*/ void subscribe(ClientHandler clientHandler) throws IOException {
         clients.add(clientHandler);
         sendUserList();
     }
 
-    private void sendUserList() throws IOException {
-        StringBuilder stringBuilder = new StringBuilder("/list ");
-        for (ClientHandler client : clients) {
-            stringBuilder.append(client.getNickname()).append(" ");
-        }
-        broadcastMessage(stringBuilder.toString(), null);
-    }
-
-    public synchronized void unsubscribe(ClientHandler clientHandler) throws IOException {
+    public /*synchronized*/ void unsubscribe(ClientHandler clientHandler) throws IOException {
         clients.remove(clientHandler);
         sendUserList();
+    }
+
+    private List<String> getAllUserNames() {
+        List<String> usernames = new LinkedList<>();
+        for (ClientHandler clientHandler : clients) {
+            usernames.add(clientHandler.getNickname());
+        }
+        return usernames;
+    }
+
+    private void sendUserList() throws IOException {
+        List<String> users = getAllUserNames();
+        broadcastMessage(Command.updateUsersListCommand(users), null);
+    }
+
+    public /*synchronized*/ void sendMessage(String receiver, Command commandMessage) throws IOException {
+        for (ClientHandler client : clients) {
+            if (client.getNickname().equals(receiver)) {
+                client.sendMessage(commandMessage);
+                break;
+            }
+        }
+    }
+
+    public boolean isNicknameBusy(String username) {
+        for (ClientHandler client : clients) {
+            if (client.getNickname().equals(username)) {
+                return true;
+            }
+        }
+        return false;
     }
 }

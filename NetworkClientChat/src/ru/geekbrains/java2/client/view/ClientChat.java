@@ -5,11 +5,11 @@ import ru.geekbrains.java2.client.controller.ClientController;
 import javax.swing.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.util.List;
 
 public class ClientChat extends JFrame {
 
     private JPanel mainPanel;
-    private DefaultListModel<String> model = new DefaultListModel<>();
     private JList<String> usersList;
     private JTextField messageTextField;
     private JButton sendButton;
@@ -19,8 +19,6 @@ public class ClientChat extends JFrame {
 
     public ClientChat(ClientController controller) {
         this.controller = controller;
-        //setTitle(controller.getUsername());
-        usersList.setModel(model);
         chatText.setEditable(false);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(640, 480);
@@ -45,9 +43,14 @@ public class ClientChat extends JFrame {
         if (message.isEmpty()) {
             return;
         }
-
         appendOwnMessage(message);
-        controller.sendMessage(message);
+        if (usersList.getSelectedIndex() < 1) {
+            controller.sendMessageToAllUsers(message);
+        }
+        else {
+            String username = usersList.getSelectedValue();
+            controller.sendPrivateMessage(username, message);
+        }
         messageTextField.setText(null);
     }
 
@@ -58,11 +61,14 @@ public class ClientChat extends JFrame {
         });
     }
 
-    public void setUsersList(String[] list) {
-        this.model.clear();
-        for (String s : list) {
-            this.model.addElement(s);
-        }
+    public void updateUsers(List<String> users) {
+        SwingUtilities.invokeLater(() -> {
+            DefaultListModel<String> model = new DefaultListModel<>();
+            for (String user : users) {
+                model.addElement(user);
+            }
+            usersList.setModel(model);
+        });
     }
 
     public void showError(String message) {

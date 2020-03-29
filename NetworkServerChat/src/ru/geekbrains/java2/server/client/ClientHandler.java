@@ -4,6 +4,7 @@ import ru.geekbrains.java2.clientserver.Command;
 import ru.geekbrains.java2.clientserver.CommandType;
 import ru.geekbrains.java2.clientserver.command.AuthCommand;
 import ru.geekbrains.java2.clientserver.command.BroadcastMessageCommand;
+import ru.geekbrains.java2.clientserver.command.ChangeNicknameCommand;
 import ru.geekbrains.java2.clientserver.command.PrivateMessageCommand;
 import ru.geekbrains.java2.server.NetworkServer;
 
@@ -71,6 +72,20 @@ public class ClientHandler {
                     networkServer.sendMessage(receiver, Command.messageCommand(nickname, message));
                     break;
                 }
+                case CHANGE_NICKNAME: {
+                    ChangeNicknameCommand commandData = (ChangeNicknameCommand) command.getData();
+                    String newNickname = commandData.getNewNickname();
+                    if(!networkServer.getDatabaseService().nicknameIsBusy(newNickname)) {
+                        networkServer.getDatabaseService().changeNickname(nickname, newNickname);
+                        sendMessage(command);
+                        setNickname(newNickname);
+                        networkServer.sendUserList();
+                    }
+                    else {
+                        sendMessage(Command.errorCommand("Ошибка смены никнейма. Такой никнейм уже существует."));
+                    }
+                    break;
+                }
                 case BROADCAST_MESSAGE: {
                     BroadcastMessageCommand commandData = (BroadcastMessageCommand) command.getData();
                     String message = commandData.getMessage();
@@ -111,7 +126,7 @@ public class ClientHandler {
         AuthCommand commandData = (AuthCommand) command.getData();
         String login = commandData.getLogin();
         String password = commandData.getPassword();
-        String username = networkServer.getAuthService().getUsernameByLoginAndPassword(login, password);
+        String username = networkServer.getDatabaseService().getUsernameByLoginAndPassword(login, password);
         if(username == null) {
             Command errorCommand = Command.errorCommand("Неверный логин или пароль");
             sendMessage(errorCommand);
@@ -134,6 +149,10 @@ public class ClientHandler {
     }
 
     public String getNickname() {return nickname;}
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
 
     public void sendMessage(Command command) throws IOException {
         out.writeObject(command);

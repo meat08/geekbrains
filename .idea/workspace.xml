@@ -6,12 +6,23 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="ДЗ Урок 7">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkServerChat/sqlite-jdbc-3.8.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/database/ServerChat.sqlite" afterDir="false" />
+    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="J3 ДЗ Урок 2">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_8_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/command/ChangeNicknameCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/database/DatabaseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/model/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/model/NetworkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/ClientChat.form" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/ClientChat.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/ClientChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/ClientChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/CommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/CommandType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/NetworkServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/NetworkServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/auth/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/auth/BaseAuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/client/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/database/ServerChat.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/database/ServerChat.sqlite" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +86,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson-1" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,7 +134,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.NetworkClient">
-    <configuration name="NetworkClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="NetworkClient" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.NetworkClient" />
       <module name="NetworkClientChat" />
       <extension name="coverage">
@@ -163,15 +174,14 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ServerApp" />
       <item itemvalue="Application.NetworkClient" />
+      <item itemvalue="Application.ServerApp" />
       <item itemvalue="Application.TestHW1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestHW1" />
-        <item itemvalue="Application.NetworkClient" />
         <item itemvalue="Application.ServerApp" />
+        <item itemvalue="Application.TestHW1" />
         <item itemvalue="Application.NetworkClient" />
         <item itemvalue="Application.ServerApp" />
       </list>
@@ -229,7 +239,7 @@
       <workItem from="1584556585206" duration="1577000" />
       <workItem from="1584806207485" duration="8080000" />
       <workItem from="1584863986823" duration="10575000" />
-      <workItem from="1585471080491" duration="1144000" />
+      <workItem from="1585471080491" duration="24297000" />
     </task>
     <task id="LOCAL-00001" summary="Add .idea folder">
       <created>1582232080611</created>
@@ -336,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584809909288</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Add Sqlite DB">
+      <created>1585472261078</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1585472261078</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +385,8 @@
     <MESSAGE value="Update project" />
     <MESSAGE value="ДЗ Урок 7" />
     <MESSAGE value="Update ClientChat" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update ClientChat" />
+    <MESSAGE value="Add Sqlite DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Sqlite DB" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1512" y="182" key="#Auto_Import" timestamp="1584868446841">
@@ -383,14 +401,18 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1512" y="179" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1585471384922" />
-    <state x="1531" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585471754374">
+    <state x="1512" y="178" key="#SQL_Dialects" timestamp="1585475430355">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1531" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585471754374" />
-    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1584865553716">
+    <state x="1512" y="178" key="#SQL_Dialects/0.0.2560.1040@0.0.2560.1040" timestamp="1585475430355" />
+    <state x="1531" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585473750765">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1584865553716" />
+    <state x="1531" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585473750765" />
+    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1585475937953">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1585475937953" />
     <state x="1650" y="299" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1584864921485">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -399,58 +421,58 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1671" y="371" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1583494758881" />
-    <state x="1570" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583172311471">
+    <state x="1570" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585482941390">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1570" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1583172311471" />
-    <state x="1650" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582294131989">
+    <state x="1570" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585482941390" />
+    <state x="1650" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585492806238">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1650" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1582294131989" />
-    <state x="1545" y="115" key="CommitChangelistDialog2" timestamp="1584809908750">
+    <state x="1650" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585492806238" />
+    <state x="1545" y="115" key="CommitChangelistDialog2" timestamp="1585490542769">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1545" y="115" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1584809908750" />
+    <state x="1545" y="115" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1585490542769" />
     <state width="434" height="466" key="DebuggerActiveHint" timestamp="1582981816970">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="434" height="466" key="DebuggerActiveHint/0.0.2560.1040@0.0.2560.1040" timestamp="1582981816970" />
-    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1585472068785">
+    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1585473413669">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1585472068785" />
-    <state width="2517" height="266" key="GridCell.Tab.0.bottom" timestamp="1584874459363">
+    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1585473413669" />
+    <state width="2517" height="264" key="GridCell.Tab.0.bottom" timestamp="1585495559234">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1584874459363" />
-    <state width="2517" height="266" key="GridCell.Tab.0.center" timestamp="1584874459363">
+    <state width="2517" height="264" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1585495559234" />
+    <state width="2517" height="264" key="GridCell.Tab.0.center" timestamp="1585495559234">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1584874459363" />
-    <state width="2517" height="266" key="GridCell.Tab.0.left" timestamp="1584874459363">
+    <state width="2517" height="264" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1585495559234" />
+    <state width="2517" height="264" key="GridCell.Tab.0.left" timestamp="1585495559234">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1584874459363" />
-    <state width="2517" height="266" key="GridCell.Tab.0.right" timestamp="1584874459363">
+    <state width="2517" height="264" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1585495559234" />
+    <state width="2517" height="264" key="GridCell.Tab.0.right" timestamp="1585495559234">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="266" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1584874459363" />
-    <state width="1234" height="343" key="GridCell.Tab.1.bottom" timestamp="1584870762279">
+    <state width="2517" height="264" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1585495559234" />
+    <state width="2517" height="342" key="GridCell.Tab.1.bottom" timestamp="1585494792092">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="343" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1584870762279" />
-    <state width="1234" height="343" key="GridCell.Tab.1.center" timestamp="1584870762279">
+    <state width="2517" height="342" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1585494792092" />
+    <state width="2517" height="342" key="GridCell.Tab.1.center" timestamp="1585494792092">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="343" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1584870762279" />
-    <state width="1234" height="343" key="GridCell.Tab.1.left" timestamp="1584870762278">
+    <state width="2517" height="342" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1585494792092" />
+    <state width="2517" height="342" key="GridCell.Tab.1.left" timestamp="1585494792092">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="343" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1584870762278" />
-    <state width="1234" height="343" key="GridCell.Tab.1.right" timestamp="1584870762279">
+    <state width="2517" height="342" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1585494792092" />
+    <state width="2517" height="342" key="GridCell.Tab.1.right" timestamp="1585494792092">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="343" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1584870762279" />
+    <state width="2517" height="342" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1585494792092" />
     <state x="992" y="236" key="MultipleFileMergeDialog" timestamp="1584170174056">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -463,18 +485,18 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1159" y="314" key="UIDesigner.ListEditorDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584550521749" />
-    <state x="1512" y="254" key="Vcs.Push.Dialog.v2" timestamp="1584809919376">
+    <state x="1512" y="254" key="Vcs.Push.Dialog.v2" timestamp="1585472270493">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1584809919376" />
+    <state x="1512" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1585472270493" />
     <state width="647" height="520" key="XDebugger.FullValuePopup" timestamp="1580157958911">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="647" height="520" key="XDebugger.FullValuePopup/0.0.2560.1040@0.0.2560.1040" timestamp="1580157958911" />
-    <state x="1636" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585471993232">
+    <state x="1636" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585472302455">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1636" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585471993232" />
+    <state x="1636" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585472302455" />
     <state x="92" y="92" width="2376" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1584170046814">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -483,10 +505,14 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1729" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1585248395817" />
-    <state x="1650" y="275" key="extract.method.dialog" timestamp="1584044328648">
+    <state x="1050" y="401" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1585479526829">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1650" y="275" key="extract.method.dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584044328648" />
+    <state x="1050" y="401" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585479526829" />
+    <state x="1650" y="275" key="extract.method.dialog" timestamp="1585487758463">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1650" y="275" key="extract.method.dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585487758463" />
     <state x="1616" y="255" width="607" height="536" key="find.popup" timestamp="1584539914063">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -523,16 +549,5 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1583" y="229" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1582570075951" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/ClientChat.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -7,31 +7,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="ДЗ Урок 7">
-      <change afterPath="$PROJECT_DIR$/NetworkClientServer/NetworkClientServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/CommandType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/command/AuthCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/command/BroadcastMessageCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/command/ErrorCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/command/MessageCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/command/PrivateMessageCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/command/UpdateUsersListCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkServerChat/sqlite-jdbc-3.8.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/database/ServerChat.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientChat/NetworkClientChat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/NetworkClientChat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/model/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/model/NetworkService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/AuthDialog.form" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/AuthDialog.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/AuthDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/AuthDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/ClientChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/ClientChat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkServerChat/NetworkServerChat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/NetworkServerChat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/NetworkServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/NetworkServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/client/ClientHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="users: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,7 +75,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson-7" />
+        <entry key="$PROJECT_DIR$" value="lesson-1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,12 +90,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="D:/Downloads/GeekBrains_Java2_2020_02_20" />
+    <property name="last_opened_file_path" value="D:/Downloads/2/дз" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -76,21 +104,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat" />
-      <recent name="D:\My docs\Обучение\geekbrains\.idea" />
-      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\My docs\Обучение\geekbrains\NetworkClientChat\src\ru\geekbrains\java2\client\view" />
-      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.geekbrains.java2.command" />
       <recent name="ru.geekbrains.java2.client.model" />
       <recent name="ru.geekbrains.java2.client.controller" />
       <recent name="ru.geekbrains.java2.server.auth" />
       <recent name="ru.geekbrains.java2.server.client" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkClientChat\src\ru\geekbrains\java2\client\view" />
+      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat" />
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat\src\ru\geekbrains\java2\server\database" />
+      <recent name="D:\My docs\Обучение\geekbrains\.idea" />
+      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
     </key>
   </component>
   <component name="RunManager" selected="Application.NetworkClient">
@@ -120,12 +149,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestHW1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java3.lessonone.TestHW1" />
+      <module name="geekbrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java3.lessonone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ServerApp" />
       <item itemvalue="Application.NetworkClient" />
+      <item itemvalue="Application.TestHW1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestHW1" />
         <item itemvalue="Application.NetworkClient" />
         <item itemvalue="Application.ServerApp" />
         <item itemvalue="Application.NetworkClient" />
@@ -185,6 +229,7 @@
       <workItem from="1584556585206" duration="1577000" />
       <workItem from="1584806207485" duration="8080000" />
       <workItem from="1584863986823" duration="10575000" />
+      <workItem from="1585471080491" duration="1144000" />
     </task>
     <task id="LOCAL-00001" summary="Add .idea folder">
       <created>1582232080611</created>
@@ -334,14 +379,14 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="872" y="178" key="#Inspections/0.0.2560.1040@0.0.2560.1040" timestamp="1584101639918" />
-    <state x="1512" y="179" key="#Project_Structure" timestamp="1584865815969">
+    <state x="1512" y="179" key="#Project_Structure" timestamp="1585471384922">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="179" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1584865815969" />
-    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584555057836">
+    <state x="1512" y="179" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1585471384922" />
+    <state x="1531" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585471754374">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584555057836" />
+    <state x="1531" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585471754374" />
     <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1584865553716">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -370,10 +415,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="434" height="466" key="DebuggerActiveHint/0.0.2560.1040@0.0.2560.1040" timestamp="1582981816970" />
-    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1584864096815">
+    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1585472068785">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1584864096815" />
+    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1585472068785" />
     <state width="2517" height="266" key="GridCell.Tab.0.bottom" timestamp="1584874459363">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -426,14 +471,18 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="647" height="520" key="XDebugger.FullValuePopup/0.0.2560.1040@0.0.2560.1040" timestamp="1580157958911" />
+    <state x="1636" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585471993232">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1636" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585471993232" />
     <state x="92" y="92" width="2376" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1584170046814">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="92" y="92" width="2376" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584170046814" />
-    <state x="1729" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584808717410">
+    <state x="1729" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585248395817">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1729" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1584808717410" />
+    <state x="1729" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1585248395817" />
     <state x="1650" y="275" key="extract.method.dialog" timestamp="1584044328648">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

@@ -28,10 +28,14 @@ public class ClientController {
     private void runAuthProcess() {
         networkService.setSuccessfulAuthEvent(nickname -> {
             ClientController.this.setUserName(nickname);
-            clientChat.setTitle("Сетевой чат. Вы вошли как: " + nickname);
+            setClientChatTitle(nickname);
             ClientController.this.openChat();
         });
         authDialog.setVisible(true);
+    }
+
+    public void setClientChatTitle(String nickname) {
+        clientChat.setTitle("Сетевой чат. Вы вошли как: " + nickname);
     }
 
     private void openChat() {
@@ -72,6 +76,16 @@ public class ClientController {
         }
     }
 
+    public void changeNick(String newNickName) {
+        try {
+            networkService.sendCommand(Command.changeNickname(newNickName));
+            nickname = newNickName;
+        } catch (IOException e) {
+            showErrorMessage("Ошибка смены ника.");
+            e.printStackTrace();
+        }
+    }
+
     public void shutdown() {
         networkService.close();
     }
@@ -89,10 +103,10 @@ public class ClientController {
     }
 
     public void showErrorMessage(String errorMessage) {
-        if (clientChat.isActive()) {
+        if (clientChat.isVisible()) {
             clientChat.showError(errorMessage);
         }
-        else if (authDialog.isActive()) {
+        else if (authDialog.isVisible()) {
             authDialog.showError(errorMessage);
         }
         System.err.println(errorMessage);

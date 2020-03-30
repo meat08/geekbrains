@@ -14,6 +14,7 @@ public class ClientChat extends JFrame {
     private JTextField messageTextField;
     private JButton sendButton;
     private JTextArea chatText;
+    private JButton changeNickButton;
 
     private ClientController controller;
 
@@ -35,7 +36,13 @@ public class ClientChat extends JFrame {
 
     private void addListeners() {
         sendButton.addActionListener(e -> ClientChat.this.sendMessage());
+        changeNickButton.addActionListener(e -> ClientChat.this.changeNick());
         messageTextField.addActionListener(e -> sendMessage());
+    }
+
+    private void changeNick() {
+        String result = JOptionPane.showInputDialog(this, "Введите новый никнейм:", "Смена никнейма", JOptionPane.INFORMATION_MESSAGE);
+        if(result != null && !result.isEmpty()) controller.changeNick(result);
     }
 
     private void sendMessage() {

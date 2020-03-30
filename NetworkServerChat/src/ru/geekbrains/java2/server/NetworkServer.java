@@ -1,8 +1,7 @@
 package ru.geekbrains.java2.server;
 
 import ru.geekbrains.java2.clientserver.Command;
-import ru.geekbrains.java2.server.auth.AuthService;
-import ru.geekbrains.java2.server.auth.BaseAuthService;
+import ru.geekbrains.java2.server.database.DatabaseService;
 import ru.geekbrains.java2.server.client.ClientHandler;
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -14,18 +13,18 @@ import java.util.List;
 public class NetworkServer {
     private final int port;
     private final List<ClientHandler> clients = new ArrayList<>();
-    private final AuthService authService;
+    private final DatabaseService databaseService;
 
 
     public NetworkServer(int port) {
         this.port = port;
-        this.authService = new BaseAuthService();
+        this.databaseService = new DatabaseService();
     }
 
     public void start() {
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             System.out.println("Сервер запущен на порту " + port);
-            authService.start();
+            databaseService.start();
             while (true) {
                 System.out.println("Ожидание подключения клиента.");
                 Socket clientSocket = serverSocket.accept();
@@ -36,7 +35,7 @@ public class NetworkServer {
             System.out.println("Ошибка сервера.");
             e.printStackTrace();
         } finally {
-            authService.stop();
+            databaseService.stop();
         }
     }
 
@@ -47,8 +46,8 @@ public class NetworkServer {
 
     public List<ClientHandler> getClients() { return clients; }
 
-    public AuthService getAuthService() {
-        return authService;
+    public DatabaseService getDatabaseService() {
+        return databaseService;
     }
 
     public /*synchronized*/ void broadcastMessage(Command message, ClientHandler owner) throws IOException {
@@ -75,7 +74,7 @@ public class NetworkServer {
         return usernames;
     }
 
-    private void sendUserList() throws IOException {
+    public void sendUserList() throws IOException {
         List<String> users = getAllUserNames();
         broadcastMessage(Command.updateUsersListCommand(users), null);
     }

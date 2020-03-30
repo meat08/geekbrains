@@ -3,10 +3,7 @@ package ru.geekbrains.java2.client.model;
 import ru.geekbrains.java2.client.controller.AuthEvent;
 import ru.geekbrains.java2.client.controller.ClientController;
 import ru.geekbrains.java2.clientserver.Command;
-import ru.geekbrains.java2.clientserver.command.AuthCommand;
-import ru.geekbrains.java2.clientserver.command.ErrorCommand;
-import ru.geekbrains.java2.clientserver.command.MessageCommand;
-import ru.geekbrains.java2.clientserver.command.UpdateUsersListCommand;
+import ru.geekbrains.java2.clientserver.command.*;
 
 import java.io.*;
 import java.net.Socket;
@@ -59,6 +56,12 @@ public class NetworkService {
                                 messageHandler.accept(message);
                                 break;
                             }
+                        }
+                        case CHANGE_NICKNAME: {
+                            ChangeNicknameCommand commandData = (ChangeNicknameCommand) command.getData();
+                            nickname = commandData.getNewNickname();
+                            controller.setClientChatTitle(nickname);
+                            break;
                         }
                         case ERROR: {
                             ErrorCommand commandData = (ErrorCommand) command.getData();

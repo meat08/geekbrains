@@ -68,7 +68,7 @@ public class ClientHandler {
                 case PRIVATE_MESSAGE: {
                     PrivateMessageCommand commandData = (PrivateMessageCommand) command.getData();
                     String receiver = commandData.getReceiver();
-                    String message = commandData.getMessage();
+                    String message = checkCurseWords(commandData.getMessage());
                     networkServer.sendMessage(receiver, Command.messageCommand(nickname, message));
                     break;
                 }
@@ -88,7 +88,7 @@ public class ClientHandler {
                 }
                 case BROADCAST_MESSAGE: {
                     BroadcastMessageCommand commandData = (BroadcastMessageCommand) command.getData();
-                    String message = commandData.getMessage();
+                    String message = checkCurseWords(commandData.getMessage());
                     networkServer.broadcastMessage(Command.messageCommand(nickname, message), this);
                     break;
                 }
@@ -156,5 +156,19 @@ public class ClientHandler {
 
     public void sendMessage(Command command) throws IOException {
         out.writeObject(command);
+    }
+
+    public String checkCurseWords(String message) {
+        String[] words = message.split("\\s+");
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < words.length; i++) {
+            if(networkServer.getDatabaseService().wordsIsCurse(words[i].toLowerCase().replaceAll("[\\-+.^:,!?]",""))) {
+                words[i] = "*CENSORED*";
+            }
+        }
+        for (String word : words) {
+            sb.append(word).append(" ");
+        }
+        return sb.toString();
     }
 }

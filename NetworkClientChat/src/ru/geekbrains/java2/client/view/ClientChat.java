@@ -3,6 +3,7 @@ package ru.geekbrains.java2.client.view;
 import ru.geekbrains.java2.client.controller.ClientController;
 
 import javax.swing.*;
+import javax.swing.text.DefaultCaret;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.List;
@@ -21,6 +22,8 @@ public class ClientChat extends JFrame {
     public ClientChat(ClientController controller) {
         this.controller = controller;
         chatText.setEditable(false);
+        DefaultCaret caret = (DefaultCaret) chatText.getCaret();
+        caret.setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(640, 480);
         setLocationRelativeTo(null);
@@ -68,6 +71,10 @@ public class ClientChat extends JFrame {
         });
     }
 
+    public void addHistoryToChat(String message) {
+        chatText.append(message);
+    }
+
     public void updateUsers(List<String> users) {
         SwingUtilities.invokeLater(() -> {
             DefaultListModel<String> model = new DefaultListModel<>();
@@ -84,6 +91,7 @@ public class ClientChat extends JFrame {
 
     private void appendOwnMessage(String message) {
         appendMessage("Я: " + message);
+        controller.writeMessageToHistory("Я: " + message + System.lineSeparator());
     }
 
 }

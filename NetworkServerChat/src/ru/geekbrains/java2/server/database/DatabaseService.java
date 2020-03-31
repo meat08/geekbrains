@@ -60,6 +60,21 @@ public class DatabaseService {
         return false;
     }
 
+    public boolean wordsIsCurse(String word) {
+        try {
+            PreparedStatement statement = connection.prepareStatement(
+                    "SELECT word FROM curse_words WHERE word = ?"
+            );
+            statement.setString(1, word);
+            ResultSet result = statement.executeQuery();
+            if (result.next()) return true;
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
     public void changeNickname(String oldNickname, String newNickname) {
         try {
             PreparedStatement statement = connection.prepareStatement(

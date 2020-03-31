@@ -54,6 +54,7 @@ public class NetworkService {
                                 String username = commandData.getUsername();
                                 if(username != null) message = username + ": " + message;
                                 messageHandler.accept(message);
+                                controller.writeMessageToHistory(message + System.lineSeparator());
                                 break;
                             }
                         }

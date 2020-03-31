@@ -5,7 +5,10 @@ import ru.geekbrains.java2.client.view.AuthDialog;
 import ru.geekbrains.java2.client.view.ClientChat;
 import ru.geekbrains.java2.clientserver.Command;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ClientController {
@@ -13,6 +16,8 @@ public class ClientController {
     private final ClientChat clientChat;
     private final AuthDialog authDialog;
     private String nickname;
+    private RandomAccessFile fileHistory;
+    private List<Long> fileIndex;
 
     public ClientController(String serverName, int serverPort) {
         this.networkService = new NetworkService(serverName, serverPort);
@@ -41,7 +46,63 @@ public class ClientController {
     private void openChat() {
         authDialog.dispose();
         networkService.setMessageHandler(clientChat::appendMessage);
+        openHistoryFile();
+        loadMessageFromHistoryToChat();
         clientChat.setVisible(true);
+    }
+
+    private void openHistoryFile() {
+        try {
+            fileHistory = new RandomAccessFile("history_" + nickname + ".txt", "rw");
+            fileIndex = createIndexHistoryFile(fileHistory);
+        } catch (FileNotFoundException e) {
+            System.out.println("Файл истории не найден!");
+            e.printStackTrace();
+        }
+    }
+
+    private void closeHistoryFile() {
+        try {
+            fileHistory.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private ArrayList<Long> createIndexHistoryFile(RandomAccessFile file) {
+        long pointer = 0;
+        ArrayList<Long> list = new ArrayList<>();
+        try {
+            while(pointer < file.length()) {
+                list.add(pointer);
+                file.seek(pointer);
+                file.readUTF();
+                pointer = file.getFilePointer();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
+
+    public void loadMessageFromHistoryToChat() {
+        try {
+            int startIndex = (fileIndex.size() >= 100) ? fileIndex.size() - 100 : 0;
+            for (int i = startIndex; i < fileIndex.size(); i++) {
+                fileHistory.seek(fileIndex.get(i));
+                clientChat.addHistoryToChat(fileHistory.readUTF());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void writeMessageToHistory(String message) {
+        try {
+            fileHistory.writeUTF(message);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private void setUserName(String nickname) {
@@ -88,6 +149,7 @@ public class ClientController {
 
     public void shutdown() {
         networkService.close();
+        closeHistoryFile();
     }
 
     public String getUsername() {

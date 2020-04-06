@@ -10,6 +10,8 @@ import ru.geekbrains.java2.server.NetworkServer;
 
 import java.io.*;
 import java.net.Socket;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class ClientHandler {
     private final NetworkServer networkServer;
@@ -17,6 +19,7 @@ public class ClientHandler {
     private ObjectInputStream in;
     private ObjectOutputStream out;
     private String nickname;
+    private ExecutorService executorService;
 
     public ClientHandler(NetworkServer networkServer, Socket clientSocket) {
         this.networkServer = networkServer;
@@ -31,8 +34,9 @@ public class ClientHandler {
         try {
             out = new ObjectOutputStream(socket.getOutputStream());
             in = new ObjectInputStream((socket.getInputStream()));
+            executorService = Executors.newFixedThreadPool(1);
 
-            new Thread(() -> {
+            executorService.execute(() -> {
                 try {
                     authentication();
                     readMessages();
@@ -41,9 +45,11 @@ public class ClientHandler {
                 } finally {
                     closeConnection();
                 }
-            }).start();
+            });
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            executorService.shutdown();
         }
     }
 

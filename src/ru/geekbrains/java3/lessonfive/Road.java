@@ -1,7 +1,5 @@
 package ru.geekbrains.java3.lessonfive;
 
-import java.util.concurrent.CountDownLatch;
-
 public class Road extends Stage {
     public Road(int length) {
         this.length = length;

@@ -38,7 +38,8 @@ public class Car implements Runnable {
             System.out.println(this.name + " готов");
             latchCars.await();
             for (int i = 0; i < race.getStages().size(); i++) {
-                race.getStages().get(i).go(this, latchRaces);
+                race.getStages().get(i).go(this);
+                latchRaces.countDown();
             }
             CARS_PLACE.getAndAdd(1);
             if(CARS_PLACE.get() == 1) System.out.println(this.name + " WIN");

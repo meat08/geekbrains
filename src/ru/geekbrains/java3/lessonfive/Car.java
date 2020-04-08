@@ -37,6 +37,7 @@ public class Car implements Runnable {
             latchCars.countDown();
             System.out.println(this.name + " готов");
             latchCars.await();
+            Thread.sleep(1); //Чтобы успело вывестись сообщение из main потока
             for (int i = 0; i < race.getStages().size(); i++) {
                 race.getStages().get(i).go(this);
                 latchRaces.countDown();

@@ -7,7 +7,7 @@ public class ThreadRace {
 
     public static void main(String[] args) {
         System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Подготовка!!!");
-        Race race = new Race(new Road(60), new Tunnel(), new Road(40));
+        Race race = new Race(new Road(60), new Tunnel(CARS_COUNT), new Road(40));
         CountDownLatch latchCars = new CountDownLatch(CARS_COUNT);
         CountDownLatch latchRaces = new CountDownLatch(race.getStages().size() * CARS_COUNT);
         Car[] cars = new Car[CARS_COUNT];

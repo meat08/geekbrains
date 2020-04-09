@@ -6,23 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="J3 ДЗ Урок 2">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_8_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/command/ChangeNicknameCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/database/DatabaseService.java" afterDir="false" />
+    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="Refactor latchRaces use">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/model/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/model/NetworkService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/ClientChat.form" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/ClientChat.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/ClientChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/ClientChat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/CommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/CommandType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/NetworkServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/NetworkServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/auth/AuthService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/auth/BaseAuthService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/client/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/database/ServerChat.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/database/ServerChat.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonfive/ThreadRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonfive/ThreadRace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonfive/Tunnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonfive/Tunnel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +42,13 @@
         <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="curse_words: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -106,13 +100,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="D:/Downloads/2/дз" />
+    <property name="last_opened_file_path" value="D:/Downloads/5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -133,7 +128,20 @@
       <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NetworkClient">
+  <component name="RunManager" selected="Application.ThreadRace">
+    <configuration name="ControlThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java3.lessonfour.ControlThread" />
+      <module name="geekbrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java3.lessonfour.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NetworkClient" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.NetworkClient" />
       <module name="NetworkClientChat" />
@@ -160,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHW1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java3.lessonone.TestHW1" />
+    <configuration name="ThreadRace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java3.lessonfive.ThreadRace" />
       <module name="geekbrains" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java3.lessonone.*" />
+          <option name="PATTERN" value="ru.geekbrains.java3.lessonfive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,13 +184,15 @@
     <list>
       <item itemvalue="Application.NetworkClient" />
       <item itemvalue="Application.ServerApp" />
-      <item itemvalue="Application.TestHW1" />
+      <item itemvalue="Application.ControlThread" />
+      <item itemvalue="Application.ThreadRace" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadRace" />
+        <item itemvalue="Application.ControlThread" />
         <item itemvalue="Application.ServerApp" />
-        <item itemvalue="Application.TestHW1" />
-        <item itemvalue="Application.NetworkClient" />
+        <item itemvalue="Application.ControlThread" />
         <item itemvalue="Application.ServerApp" />
       </list>
     </recent_temporary>
@@ -192,7 +202,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:ServerChat.sqlite" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:ServerChat.sqlite" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3c3c6754" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -239,7 +259,19 @@
       <workItem from="1584556585206" duration="1577000" />
       <workItem from="1584806207485" duration="8080000" />
       <workItem from="1584863986823" duration="10575000" />
-      <workItem from="1585471080491" duration="24297000" />
+      <workItem from="1585471080491" duration="25087000" />
+      <workItem from="1585496800881" duration="684000" />
+      <workItem from="1585589578892" duration="3006000" />
+      <workItem from="1585645800037" duration="15340000" />
+      <workItem from="1585680330085" duration="743000" />
+      <workItem from="1585690000918" duration="164000" />
+      <workItem from="1585848790026" duration="2113000" />
+      <workItem from="1586072969407" duration="9120000" />
+      <workItem from="1586193961149" duration="1183000" />
+      <workItem from="1586335414822" duration="607000" />
+      <workItem from="1586336359863" duration="21338000" />
+      <workItem from="1586358867215" duration="1000" />
+      <workItem from="1586453882115" duration="255000" />
     </task>
     <task id="LOCAL-00001" summary="Add .idea folder">
       <created>1582232080611</created>
@@ -353,7 +385,56 @@
       <option name="project" value="LOCAL" />
       <updated>1585472261078</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="J3 ДЗ Урок 2">
+      <created>1585495595781</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1585495595781</updated>
+    </task>
+    <task id="LOCAL-00018" summary="J3 ДЗ Урок 3">
+      <created>1585662036187</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1585662036187</updated>
+    </task>
+    <task id="LOCAL-00019" summary="J3 ДЗ Урок 4">
+      <created>1586081992995</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1586081992995</updated>
+    </task>
+    <task id="LOCAL-00020" summary="J3 ДЗ Урок 5">
+      <created>1586354604144</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1586354604144</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Refactor latchRaces use">
+      <created>1586355308211</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1586355308211</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Remove unused import">
+      <created>1586355557337</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1586355557337</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Update Car class (add sleep)">
+      <created>1586358705474</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1586358705474</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +467,14 @@
     <MESSAGE value="ДЗ Урок 7" />
     <MESSAGE value="Update ClientChat" />
     <MESSAGE value="Add Sqlite DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Sqlite DB" />
+    <MESSAGE value="J3 ДЗ Урок 2" />
+    <MESSAGE value="J3 ДЗ Урок 3" />
+    <MESSAGE value="J3 ДЗ Урок 4" />
+    <MESSAGE value="J3 ДЗ Урок 5" />
+    <MESSAGE value="Refactor latchRaces use" />
+    <MESSAGE value="Remove unused import" />
+    <MESSAGE value="Update Car class (add sleep)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Car class (add sleep)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1512" y="182" key="#Auto_Import" timestamp="1584868446841">
@@ -397,22 +485,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="872" y="178" key="#Inspections/0.0.2560.1040@0.0.2560.1040" timestamp="1584101639918" />
-    <state x="1512" y="179" key="#Project_Structure" timestamp="1585471384922">
+    <state x="1512" y="179" key="#Project_Structure" timestamp="1586342597349">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="179" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1585471384922" />
+    <state x="1512" y="179" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1586342597349" />
     <state x="1512" y="178" key="#SQL_Dialects" timestamp="1585475430355">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1512" y="178" key="#SQL_Dialects/0.0.2560.1040@0.0.2560.1040" timestamp="1585475430355" />
-    <state x="1531" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585473750765">
+    <state x="1468" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585661469020">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1531" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585473750765" />
-    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1585475937953">
+    <state x="1468" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585661469020" />
+    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1586343159738">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1585475937953" />
+    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1586343159738" />
     <state x="1650" y="299" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1584864921485">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -421,106 +509,126 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1671" y="371" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1583494758881" />
-    <state x="1570" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585482941390">
+    <state x="1570" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586351302201">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1570" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585482941390" />
+    <state x="1570" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586351302201" />
     <state x="1650" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585492806238">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1650" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585492806238" />
-    <state x="1545" y="115" key="CommitChangelistDialog2" timestamp="1585490542769">
+    <state x="1545" y="115" key="CommitChangelistDialog2" timestamp="1586358704954">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1545" y="115" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1585490542769" />
+    <state x="1545" y="115" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1586358704954" />
     <state width="434" height="466" key="DebuggerActiveHint" timestamp="1582981816970">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="434" height="466" key="DebuggerActiveHint/0.0.2560.1040@0.0.2560.1040" timestamp="1582981816970" />
-    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1585473413669">
+    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1586194225360">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1585473413669" />
-    <state width="2517" height="264" key="GridCell.Tab.0.bottom" timestamp="1585495559234">
+    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1586194225360" />
+    <state width="1234" height="263" key="GridCell.Tab.0.bottom" timestamp="1586454102078">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="264" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1585495559234" />
-    <state width="2517" height="264" key="GridCell.Tab.0.center" timestamp="1585495559234">
+    <state width="1234" height="263" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1586454102078" />
+    <state width="1234" height="263" key="GridCell.Tab.0.center" timestamp="1586454102077">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="264" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1585495559234" />
-    <state width="2517" height="264" key="GridCell.Tab.0.left" timestamp="1585495559234">
+    <state width="1234" height="263" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1586454102077" />
+    <state width="1234" height="263" key="GridCell.Tab.0.left" timestamp="1586454102077">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="264" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1585495559234" />
-    <state width="2517" height="264" key="GridCell.Tab.0.right" timestamp="1585495559234">
+    <state width="1234" height="263" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1586454102077" />
+    <state width="1234" height="263" key="GridCell.Tab.0.right" timestamp="1586454102077">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="264" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1585495559234" />
-    <state width="2517" height="342" key="GridCell.Tab.1.bottom" timestamp="1585494792092">
+    <state width="1234" height="263" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1586454102077" />
+    <state width="1234" height="341" key="GridCell.Tab.1.bottom" timestamp="1586358828553">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="342" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1585494792092" />
-    <state width="2517" height="342" key="GridCell.Tab.1.center" timestamp="1585494792092">
+    <state width="1234" height="341" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1586358828553" />
+    <state width="1234" height="341" key="GridCell.Tab.1.center" timestamp="1586358828553">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="342" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1585494792092" />
-    <state width="2517" height="342" key="GridCell.Tab.1.left" timestamp="1585494792092">
+    <state width="1234" height="341" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1586358828553" />
+    <state width="1234" height="341" key="GridCell.Tab.1.left" timestamp="1586358828553">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="342" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1585494792092" />
-    <state width="2517" height="342" key="GridCell.Tab.1.right" timestamp="1585494792092">
+    <state width="1234" height="341" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1586358828553" />
+    <state width="1234" height="341" key="GridCell.Tab.1.right" timestamp="1586358828553">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="342" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1585494792092" />
-    <state x="992" y="236" key="MultipleFileMergeDialog" timestamp="1584170174056">
+    <state width="1234" height="341" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1586358828553" />
+    <state x="248" y="86" key="MergeDialog" timestamp="1585589626040">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="992" y="236" key="MultipleFileMergeDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584170174056" />
-    <state x="1421" y="162" key="SettingsEditor" timestamp="1583495763285">
+    <state x="248" y="86" key="MergeDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585589626040" />
+    <state x="992" y="236" key="MultipleFileMergeDialog" timestamp="1585589649401">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1421" y="162" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1583495763285" />
+    <state x="992" y="236" key="MultipleFileMergeDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585589649401" />
+    <state x="1421" y="162" width="1045" height="726" key="SettingsEditor" timestamp="1586342474123">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1421" y="162" width="1045" height="726" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1586342474123" />
     <state x="1159" y="314" key="UIDesigner.ListEditorDialog" timestamp="1584550521749">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1159" y="314" key="UIDesigner.ListEditorDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584550521749" />
-    <state x="1512" y="254" key="Vcs.Push.Dialog.v2" timestamp="1585472270493">
+    <state x="1512" y="254" key="Vcs.Push.Dialog.v2" timestamp="1586358707363">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1585472270493" />
+    <state x="1512" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1586358707363" />
     <state width="647" height="520" key="XDebugger.FullValuePopup" timestamp="1580157958911">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="647" height="520" key="XDebugger.FullValuePopup/0.0.2560.1040@0.0.2560.1040" timestamp="1580157958911" />
-    <state x="1636" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585472302455">
+    <state x="1799" y="413" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1585659593321">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1636" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585472302455" />
+    <state x="1799" y="413" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585659593321" />
+    <state x="1500" y="178" key="com.intellij.database.dbimport.ImportDialog" timestamp="1585659215190">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1500" y="178" key="com.intellij.database.dbimport.ImportDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585659215190" />
+    <state x="1650" y="328" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1585659210433">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1650" y="328" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585659210433" />
+    <state x="1636" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585659009000">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1636" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585659009000" />
     <state x="92" y="92" width="2376" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1584170046814">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="92" y="92" width="2376" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584170046814" />
-    <state x="1729" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585248395817">
+    <state x="1729" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586193970779">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1729" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1585248395817" />
+    <state x="1729" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1586193970779" />
     <state x="1050" y="401" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1585479526829">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1050" y="401" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585479526829" />
-    <state x="1650" y="275" key="extract.method.dialog" timestamp="1585487758463">
+    <state x="1481" y="259" width="877" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586351796254">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1650" y="275" key="extract.method.dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585487758463" />
+    <state x="1481" y="259" width="877" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1040@0.0.2560.1040" timestamp="1586351796254" />
+    <state x="1715" y="239" key="extract.method.dialog" timestamp="1586342769461">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1715" y="239" key="extract.method.dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586342769461" />
     <state x="1616" y="255" width="607" height="536" key="find.popup" timestamp="1584539914063">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1616" y="255" width="607" height="536" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1584539914063" />
-    <state x="1701" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1584170154393">
+    <state x="1701" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1585589616842">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1701" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584170154393" />
+    <state x="1701" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585589616842" />
     <state x="1645" y="312" key="git4idea.merge.GitPullDialog" timestamp="1584381932387">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

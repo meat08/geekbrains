@@ -3,9 +3,10 @@ package ru.geekbrains.java3.lessonfive;
 import java.util.concurrent.Semaphore;
 
 public class Tunnel extends Stage {
-    private static final Semaphore semaphore = new Semaphore(2, true);
+    private static Semaphore semaphore;
 
-    public Tunnel() {
+    public Tunnel(int CARS_COUNT) {
+        semaphore = new Semaphore(CARS_COUNT / 2, true);
         this.length = 80;
         this.description = "Тоннель " + length + " метров";
     }

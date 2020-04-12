@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="NetworkServerChat" />
+        <module name="NetworkClientServer" />
+        <module name="NetworkClientChat" />
+        <module name="geekbrains" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="geekbrains" target="8" />
+      <module name="NetworkClientChat" target="8" />
+      <module name="NetworkClientServer" target="8" />
+      <module name="NetworkServerChat" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -6,10 +6,94 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="Refactor latchRaces use">
+    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_30_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkClientChat/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkClientServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkServerChat/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/geekbrains.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/geekbrains.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonfive/ThreadRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonfive/ThreadRace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonfive/Tunnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonfive/Tunnel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientChat/NetworkClientChat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/NetworkClientChat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/NetworkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/main/java/ru/geekbrains/java2/client/NetworkClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/controller/AuthEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/main/java/ru/geekbrains/java2/client/controller/AuthEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/main/java/ru/geekbrains/java2/client/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/model/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/main/java/ru/geekbrains/java2/client/model/NetworkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/AuthDialog.form" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/main/java/ru/geekbrains/java2/client/view/AuthDialog.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/AuthDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/main/java/ru/geekbrains/java2/client/view/AuthDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/ClientChat.form" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/main/java/ru/geekbrains/java2/client/view/ClientChat.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientChat/src/ru/geekbrains/java2/client/view/ClientChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/src/main/java/ru/geekbrains/java2/client/view/ClientChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientServer/NetworkClientServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/NetworkClientServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/src/main/java/ru/geekbrains/java2/clientserver/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/CommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/src/main/java/ru/geekbrains/java2/clientserver/CommandType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/command/AuthCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/src/main/java/ru/geekbrains/java2/clientserver/command/AuthCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/command/BroadcastMessageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/src/main/java/ru/geekbrains/java2/clientserver/command/BroadcastMessageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/command/ChangeNicknameCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/src/main/java/ru/geekbrains/java2/clientserver/command/ChangeNicknameCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/command/ErrorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/src/main/java/ru/geekbrains/java2/clientserver/command/ErrorCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/command/MessageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/src/main/java/ru/geekbrains/java2/clientserver/command/MessageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/command/PrivateMessageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/src/main/java/ru/geekbrains/java2/clientserver/command/PrivateMessageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClientServer/src/ru/geekbrains/java2/clientserver/command/UpdateUsersListCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/src/main/java/ru/geekbrains/java2/clientserver/command/UpdateUsersListCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/NetworkServerChat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/NetworkServerChat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/sqlite-jdbc-3.8.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/NetworkServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/main/java/ru/geekbrains/java2/server/NetworkServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/main/java/ru/geekbrains/java2/server/ServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/main/java/ru/geekbrains/java2/server/client/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/database/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/main/java/ru/geekbrains/java2/server/database/DatabaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/database/ServerChat.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/main/java/ru/geekbrains/java2/server/database/ServerChat.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessoneight/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessoneight/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonfive/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonfive/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonfive/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonfive/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonfour/GameAi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonfour/GameAi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonfour/GameMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonfour/GameMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonfour/GameMult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonfour/GameMult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonfour/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonfour/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonone/FirstApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonone/FirstApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonseven/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonseven/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonseven/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonseven/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonseven/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonseven/Plate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonsix/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonsix/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonsix/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonsix/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonsix/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonsix/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonsix/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonsix/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonthree/LessonThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonthree/LessonThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonthree/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonthree/TaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessonthree/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessonthree/TaskTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java1/lessontwo/LessonTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java1/lessontwo/LessonTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonfive/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonfive/TestThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonfour/ClientChat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonfour/ClientChat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonfour/ClientChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonfour/ClientChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonone/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonone/Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonone/Barriers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonone/Barriers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonone/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonone/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonone/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonone/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonone/Lane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonone/Lane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonone/Members.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonone/Members.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonone/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonone/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonone/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonone/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonsix/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonsix/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonsix/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonsix/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonthree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonthree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonthree/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonthree/PhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessonthree/Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessonthree/Words.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessontwo/MyArrayDataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessontwo/MyArrayDataException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessontwo/MyArraySizeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessontwo/MyArraySizeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java2/lessontwo/TestExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java2/lessontwo/TestExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonfive/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java3/lessonfive/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonfive/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java3/lessonfive/Race.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonfive/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java3/lessonfive/Road.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonfive/Stage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java3/lessonfive/Stage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonfive/ThreadRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java3/lessonfive/ThreadRace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonfive/Tunnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java3/lessonfive/Tunnel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonfour/ControlThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java3/lessonfour/ControlThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonone/ArraysSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java3/lessonone/ArraysSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonone/TestHW1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java3/lessonone/TestHW1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonone/fruits/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java3/lessonone/fruits/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonone/fruits/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java3/lessonone/fruits/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonone/fruits/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java3/lessonone/fruits/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/java3/lessonone/fruits/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java3/lessonone/fruits/Orange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +164,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lesson-5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1WzFbNFtwAmlH6wjNrNYow7pYyT" />
   <component name="ProjectViewState">
@@ -102,14 +193,25 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="D:/Downloads/5" />
+    <property name="last_opened_file_path" value="D:/Downloads/maven" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkClientChat" />
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat" />
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat\src\ru\geekbrains\java2\server\database" />
+      <recent name="D:\My docs\Обучение\geekbrains\.idea" />
+      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkClientChat\src\ru\geekbrains\java2\client\view" />
+      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.geekbrains.java2.command" />
       <recent name="ru.geekbrains.java2.client.model" />
@@ -117,31 +219,8 @@
       <recent name="ru.geekbrains.java2.server.auth" />
       <recent name="ru.geekbrains.java2.server.client" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\My docs\Обучение\geekbrains\NetworkClientChat\src\ru\geekbrains\java2\client\view" />
-      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat" />
-      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat\src\ru\geekbrains\java2\server\database" />
-      <recent name="D:\My docs\Обучение\geekbrains\.idea" />
-      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadRace">
-    <configuration name="ControlThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java3.lessonfour.ControlThread" />
-      <module name="geekbrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java3.lessonfour.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NetworkClient">
     <configuration name="NetworkClient" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.NetworkClient" />
       <module name="NetworkClientChat" />
@@ -184,16 +263,12 @@
     <list>
       <item itemvalue="Application.NetworkClient" />
       <item itemvalue="Application.ServerApp" />
-      <item itemvalue="Application.ControlThread" />
       <item itemvalue="Application.ThreadRace" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServerApp" />
         <item itemvalue="Application.ThreadRace" />
-        <item itemvalue="Application.ControlThread" />
-        <item itemvalue="Application.ServerApp" />
-        <item itemvalue="Application.ControlThread" />
-        <item itemvalue="Application.ServerApp" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +346,8 @@
       <workItem from="1586335414822" duration="607000" />
       <workItem from="1586336359863" duration="21338000" />
       <workItem from="1586358867215" duration="1000" />
-      <workItem from="1586453882115" duration="255000" />
+      <workItem from="1586453882115" duration="2128000" />
+      <workItem from="1586678339151" duration="1420000" />
     </task>
     <task id="LOCAL-00001" summary="Add .idea folder">
       <created>1582232080611</created>
@@ -434,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586358705474</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Update Tunnel.java">
+      <created>1586454154268</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1586454154268</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +557,8 @@
     <MESSAGE value="Refactor latchRaces use" />
     <MESSAGE value="Remove unused import" />
     <MESSAGE value="Update Car class (add sleep)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Car class (add sleep)" />
+    <MESSAGE value="Update Tunnel.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Tunnel.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1512" y="182" key="#Auto_Import" timestamp="1584868446841">
@@ -485,18 +569,18 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="872" y="178" key="#Inspections/0.0.2560.1040@0.0.2560.1040" timestamp="1584101639918" />
-    <state x="1512" y="179" key="#Project_Structure" timestamp="1586342597349">
+    <state x="1495" y="104" key="#Project_Structure" timestamp="1586679699868">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="179" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1586342597349" />
+    <state x="1495" y="104" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1586679699868" />
     <state x="1512" y="178" key="#SQL_Dialects" timestamp="1585475430355">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1512" y="178" key="#SQL_Dialects/0.0.2560.1040@0.0.2560.1040" timestamp="1585475430355" />
-    <state x="1468" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585661469020">
+    <state x="1468" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586457444610">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1468" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585661469020" />
+    <state x="1468" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586457444610" />
     <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1586343159738">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -509,6 +593,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1671" y="371" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1583494758881" />
+    <state x="1550" y="212" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1586679678041">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1550" y="212" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586679678041" />
     <state x="1570" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586351302201">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -517,70 +605,70 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1650" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585492806238" />
-    <state x="1545" y="115" key="CommitChangelistDialog2" timestamp="1586358704954">
+    <state x="1524" y="115" key="CommitChangelistDialog2" timestamp="1586679915290">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1545" y="115" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1586358704954" />
+    <state x="1524" y="115" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1586679915290" />
     <state width="434" height="466" key="DebuggerActiveHint" timestamp="1582981816970">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="434" height="466" key="DebuggerActiveHint/0.0.2560.1040@0.0.2560.1040" timestamp="1582981816970" />
-    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1586194225360">
+    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1586678928263">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1586194225360" />
-    <state width="1234" height="263" key="GridCell.Tab.0.bottom" timestamp="1586454102078">
+    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1586678928263" />
+    <state width="1234" height="260" key="GridCell.Tab.0.bottom" timestamp="1586679838613">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="263" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1586454102078" />
-    <state width="1234" height="263" key="GridCell.Tab.0.center" timestamp="1586454102077">
+    <state width="1234" height="260" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1586679838613" />
+    <state width="1234" height="260" key="GridCell.Tab.0.center" timestamp="1586679838612">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="263" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1586454102077" />
-    <state width="1234" height="263" key="GridCell.Tab.0.left" timestamp="1586454102077">
+    <state width="1234" height="260" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1586679838612" />
+    <state width="1234" height="260" key="GridCell.Tab.0.left" timestamp="1586679838612">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="263" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1586454102077" />
-    <state width="1234" height="263" key="GridCell.Tab.0.right" timestamp="1586454102077">
+    <state width="1234" height="260" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1586679838612" />
+    <state width="1234" height="260" key="GridCell.Tab.0.right" timestamp="1586679838612">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="263" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1586454102077" />
-    <state width="1234" height="341" key="GridCell.Tab.1.bottom" timestamp="1586358828553">
+    <state width="1234" height="260" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1586679838612" />
+    <state width="1234" height="341" key="GridCell.Tab.1.bottom" timestamp="1586457539606">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="341" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1586358828553" />
-    <state width="1234" height="341" key="GridCell.Tab.1.center" timestamp="1586358828553">
+    <state width="1234" height="341" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1586457539606" />
+    <state width="1234" height="341" key="GridCell.Tab.1.center" timestamp="1586457539606">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="341" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1586358828553" />
-    <state width="1234" height="341" key="GridCell.Tab.1.left" timestamp="1586358828553">
+    <state width="1234" height="341" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1586457539606" />
+    <state width="1234" height="341" key="GridCell.Tab.1.left" timestamp="1586457539606">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="341" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1586358828553" />
-    <state width="1234" height="341" key="GridCell.Tab.1.right" timestamp="1586358828553">
+    <state width="1234" height="341" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1586457539606" />
+    <state width="1234" height="341" key="GridCell.Tab.1.right" timestamp="1586457539606">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="341" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1586358828553" />
+    <state width="1234" height="341" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1586457539606" />
     <state x="248" y="86" key="MergeDialog" timestamp="1585589626040">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="248" y="86" key="MergeDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585589626040" />
-    <state x="992" y="236" key="MultipleFileMergeDialog" timestamp="1585589649401">
+    <state x="992" y="236" key="MultipleFileMergeDialog" timestamp="1586454229390">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="992" y="236" key="MultipleFileMergeDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585589649401" />
-    <state x="1421" y="162" width="1045" height="726" key="SettingsEditor" timestamp="1586342474123">
+    <state x="992" y="236" key="MultipleFileMergeDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586454229390" />
+    <state x="1421" y="162" width="1045" height="726" key="SettingsEditor" timestamp="1586679759295">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1421" y="162" width="1045" height="726" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1586342474123" />
+    <state x="1421" y="162" width="1045" height="726" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1586679759295" />
     <state x="1159" y="314" key="UIDesigner.ListEditorDialog" timestamp="1584550521749">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1159" y="314" key="UIDesigner.ListEditorDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584550521749" />
-    <state x="1512" y="254" key="Vcs.Push.Dialog.v2" timestamp="1586358707363">
+    <state x="1512" y="254" key="Vcs.Push.Dialog.v2" timestamp="1586454173019">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1586358707363" />
+    <state x="1512" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1586454173019" />
     <state width="647" height="520" key="XDebugger.FullValuePopup" timestamp="1580157958911">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -605,10 +693,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="92" y="92" width="2376" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584170046814" />
-    <state x="1729" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586193970779">
+    <state x="1729" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586454221138">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1729" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1586193970779" />
+    <state x="1729" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1586454221138" />
     <state x="1050" y="401" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1585479526829">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -625,10 +713,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1616" y="255" width="607" height="536" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1584539914063" />
-    <state x="1701" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1585589616842">
+    <state x="1701" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1586454207735">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1701" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585589616842" />
+    <state x="1701" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586454207735" />
     <state x="1645" y="312" key="git4idea.merge.GitPullDialog" timestamp="1584381932387">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -641,10 +729,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="300" height="36" key="javadoc.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1584551197996" />
-    <state x="1302" y="140" key="new project wizard" timestamp="1584864228038">
+    <state x="1302" y="140" key="new project wizard" timestamp="1586455419304">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1302" y="140" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1584864228038" />
+    <state x="1302" y="140" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1586455419304" />
     <state x="1608" y="367" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1580156635259">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

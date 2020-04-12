@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/NetworkServerChat/src/ru/geekbrains/java2/server/database/DatabaseService.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/NetworkServerChat/src/main/java/ru/geekbrains/java2/server/database/DatabaseService.java" dialect="GenericSQL" />
   </component>
 </project>

@@ -7,16 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkServerChat/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java3/lessonsix/ClassForTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ClassForTestsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/geekbrains.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/geekbrains.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientChat/NetworkClientChat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/NetworkClientChat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientChat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientChat/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientServer/NetworkClientServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/NetworkClientServer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkClientServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClientServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkServerChat/NetworkServerChat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/NetworkServerChat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkServerChat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/main/java/ru/geekbrains/java2/server/NetworkServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/main/java/ru/geekbrains/java2/server/NetworkServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/main/java/ru/geekbrains/java2/server/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/main/java/ru/geekbrains/java2/server/client/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/main/java/ru/geekbrains/java2/server/database/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/main/java/ru/geekbrains/java2/server/database/DatabaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServerChat/src/main/java/ru/geekbrains/java2/server/database/ServerChat.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServerChat/src/main/java/ru/geekbrains/java2/server/database/ServerChat.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +119,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="D:/Downloads/maven" />
+    <property name="last_opened_file_path" value="D:/Downloads/6" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -144,7 +146,20 @@
       <recent name="ru.geekbrains.java2.server.client" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NetworkClient">
+  <component name="RunManager" selected="JUnit.ClassForTestsTest">
+    <configuration name="ClassForTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java3.lessonsix.ClassForTests" />
+      <module name="geekbrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java3.lessonsix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NetworkClient" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.NetworkClient" />
       <module name="NetworkClientChat" />
@@ -171,15 +186,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadRace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java3.lessonfive.ThreadRace" />
+    <configuration name="ClassForTestsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="geekbrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java3.lessonfive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClassForTestsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassForTestsTest.cutArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="geekbrains" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClassForTestsTest" />
+      <option name="METHOD_NAME" value="cutArrayTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassForTestsTest.isOneAndFourInArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="geekbrains" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClassForTestsTest" />
+      <option name="METHOD_NAME" value="isOneAndFourInArrayTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,12 +218,18 @@
     <list>
       <item itemvalue="Application.NetworkClient" />
       <item itemvalue="Application.ServerApp" />
-      <item itemvalue="Application.ThreadRace" />
+      <item itemvalue="Application.ClassForTests" />
+      <item itemvalue="JUnit.ClassForTestsTest" />
+      <item itemvalue="JUnit.ClassForTestsTest.cutArrayTest" />
+      <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClassForTestsTest" />
+        <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
+        <item itemvalue="JUnit.ClassForTestsTest.cutArrayTest" />
+        <item itemvalue="Application.ClassForTests" />
         <item itemvalue="Application.ServerApp" />
-        <item itemvalue="Application.ThreadRace" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +309,7 @@
       <workItem from="1586358867215" duration="1000" />
       <workItem from="1586453882115" duration="2128000" />
       <workItem from="1586678339151" duration="3993000" />
-      <workItem from="1586683969279" duration="251000" />
+      <workItem from="1586683969279" duration="9689000" />
     </task>
     <task id="LOCAL-00001" summary="Add .idea folder">
       <created>1582232080611</created>
@@ -449,7 +486,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586679954499</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Update maven config">
+      <created>1586684348081</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1586684348081</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Update maven config">
+      <created>1586684397275</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1586684397275</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,13 +542,18 @@
     <MESSAGE value="Update Car class (add sleep)" />
     <MESSAGE value="Update Tunnel.java" />
     <MESSAGE value="Add maven framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add maven framework" />
+    <MESSAGE value="Update maven config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update maven config" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1512" y="182" key="#Auto_Import" timestamp="1584868446841">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1512" y="182" key="#Auto_Import/0.0.2560.1040@0.0.2560.1040" timestamp="1584868446841" />
+    <state x="1512" y="178" key="#File_and_Code_Templates" timestamp="1586689478866">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1512" y="178" key="#File_and_Code_Templates/0.0.2560.1040@0.0.2560.1040" timestamp="1586689478866" />
     <state x="872" y="178" key="#Inspections" timestamp="1584101639918">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -510,14 +566,14 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1512" y="178" key="#SQL_Dialects/0.0.2560.1040@0.0.2560.1040" timestamp="1585475430355" />
-    <state x="1468" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586457444610">
+    <state x="1468" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586687547745">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1468" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586457444610" />
-    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1586683509631">
+    <state x="1468" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586687547745" />
+    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1586691886050">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1586683509631" />
+    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1586691886050" />
     <state x="1650" y="299" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1584864921485">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -538,50 +594,50 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1650" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585492806238" />
-    <state x="1524" y="115" key="CommitChangelistDialog2" timestamp="1586684347411">
+    <state x="1524" y="115" key="CommitChangelistDialog2" timestamp="1586684396626">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1524" y="115" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1586684347411" />
+    <state x="1524" y="115" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1586684396626" />
     <state width="434" height="466" key="DebuggerActiveHint" timestamp="1582981816970">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="434" height="466" key="DebuggerActiveHint/0.0.2560.1040@0.0.2560.1040" timestamp="1582981816970" />
-    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1586678928263">
+    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1586687712022">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1586678928263" />
-    <state width="1234" height="260" key="GridCell.Tab.0.bottom" timestamp="1586684281444">
+    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1586687712022" />
+    <state width="1234" height="260" key="GridCell.Tab.0.bottom" timestamp="1586693649953">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="260" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1586684281444" />
-    <state width="1234" height="260" key="GridCell.Tab.0.center" timestamp="1586684281444">
+    <state width="1234" height="260" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1586693649953" />
+    <state width="1234" height="260" key="GridCell.Tab.0.center" timestamp="1586693649953">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="260" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1586684281444" />
-    <state width="1234" height="260" key="GridCell.Tab.0.left" timestamp="1586684281444">
+    <state width="1234" height="260" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1586693649953" />
+    <state width="1234" height="260" key="GridCell.Tab.0.left" timestamp="1586693649953">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="260" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1586684281444" />
-    <state width="1234" height="260" key="GridCell.Tab.0.right" timestamp="1586684281444">
+    <state width="1234" height="260" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1586693649953" />
+    <state width="1234" height="260" key="GridCell.Tab.0.right" timestamp="1586693649953">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="260" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1586684281444" />
-    <state width="1234" height="341" key="GridCell.Tab.1.bottom" timestamp="1586457539606">
+    <state width="1234" height="260" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1586693649953" />
+    <state width="1234" height="338" key="GridCell.Tab.1.bottom" timestamp="1586689045347">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="341" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1586457539606" />
-    <state width="1234" height="341" key="GridCell.Tab.1.center" timestamp="1586457539606">
+    <state width="1234" height="338" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1586689045347" />
+    <state width="1234" height="338" key="GridCell.Tab.1.center" timestamp="1586689045347">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="341" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1586457539606" />
-    <state width="1234" height="341" key="GridCell.Tab.1.left" timestamp="1586457539606">
+    <state width="1234" height="338" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1586689045347" />
+    <state width="1234" height="338" key="GridCell.Tab.1.left" timestamp="1586689045347">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="341" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1586457539606" />
-    <state width="1234" height="341" key="GridCell.Tab.1.right" timestamp="1586457539606">
+    <state width="1234" height="338" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1586689045347" />
+    <state width="1234" height="338" key="GridCell.Tab.1.right" timestamp="1586689045347">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="341" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1586457539606" />
+    <state width="1234" height="338" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1586689045347" />
     <state x="1620" y="169" key="Maven.ArtifactSearchDialog" timestamp="1586683628156">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -602,10 +658,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1159" y="314" key="UIDesigner.ListEditorDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584550521749" />
-    <state x="1512" y="254" key="Vcs.Push.Dialog.v2" timestamp="1586684366757">
+    <state x="1512" y="254" key="Vcs.Push.Dialog.v2" timestamp="1586684399381">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1586684366757" />
+    <state x="1512" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1586684399381" />
     <state width="647" height="520" key="XDebugger.FullValuePopup" timestamp="1580157958911">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

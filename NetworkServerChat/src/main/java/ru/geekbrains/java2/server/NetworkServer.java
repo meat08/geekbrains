@@ -1,5 +1,6 @@
 package ru.geekbrains.java2.server;
 
+import org.apache.log4j.Logger;
 import ru.geekbrains.java2.clientserver.Command;
 import ru.geekbrains.java2.server.database.DatabaseService;
 import ru.geekbrains.java2.server.client.ClientHandler;
@@ -14,6 +15,7 @@ public class NetworkServer {
     private final int port;
     private final List<ClientHandler> clients = new ArrayList<>();
     private final DatabaseService databaseService;
+    private static final Logger logger = Logger.getLogger(NetworkServer.class);
 
 
     public NetworkServer(int port) {
@@ -24,17 +26,21 @@ public class NetworkServer {
     public void start() {
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             System.out.println("Сервер запущен на порту " + port);
+            logger.info("Сервер запущен на порту " + port);
             databaseService.start();
             while (true) {
                 System.out.println("Ожидание подключения клиента.");
                 Socket clientSocket = serverSocket.accept();
-                System.out.println("Клиент подключился.");
+//                System.out.println("Клиент подключился.");
+                logger.info("Клиент подключился.");
                 createClientHandler(clientSocket);
             }
         } catch (IOException e) {
-            System.out.println("Ошибка сервера.");
+//            System.out.println("Ошибка сервера.");
+            logger.error("Ошибка сервера.");
             e.printStackTrace();
         } finally {
+            logger.info("Сервер остановлен.");
             databaseService.stop();
         }
     }

@@ -1,17 +1,21 @@
 package ru.geekbrains.java2.server.database;
 
+import org.apache.log4j.Logger;
 import java.sql.*;
 
 public class DatabaseService {
     private Connection connection = null;
     private String URL = "jdbc:sqlite:NetworkServerChat/src/main/java/ru/geekbrains/java2/server/database/ServerChat.sqlite";
+    private static final Logger logger = Logger.getLogger(DatabaseService.class);
 
     public void start() {
         try {
             connection = DriverManager.getConnection(URL);
-            System.out.println("База данных подключена");
+//            System.out.println("База данных подключена");
+            logger.info("База данных подключена");
         } catch (SQLException e) {
             System.err.println("Ошибка подключения к базе данных");
+            logger.fatal("Ошибка подключения к базе данных");
             e.printStackTrace();
             System.exit(-1);
         }

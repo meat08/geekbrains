@@ -1,5 +1,6 @@
 package ru.geekbrains.java2.server.client;
 
+import org.apache.log4j.Logger;
 import ru.geekbrains.java2.clientserver.Command;
 import ru.geekbrains.java2.clientserver.CommandType;
 import ru.geekbrains.java2.clientserver.command.AuthCommand;
@@ -20,6 +21,7 @@ public class ClientHandler {
     private ObjectOutputStream out;
     private String nickname;
     private ExecutorService executorService;
+    private static final Logger logger = Logger.getLogger(ClientHandler.class);
 
     public ClientHandler(NetworkServer networkServer, Socket clientSocket) {
         this.networkServer = networkServer;
@@ -41,7 +43,8 @@ public class ClientHandler {
                     authentication();
                     readMessages();
                 } catch (IOException e) {
-                    System.out.println("Соединение с клиентом " + nickname + " закрыто.");
+//                    System.out.println("Соединение с клиентом " + nickname + " закрыто.");
+                    logger.info("Соединение с клиентом " + nickname + " закрыто.");
                 } finally {
                     closeConnection();
                 }
@@ -69,13 +72,16 @@ public class ClientHandler {
             switch (command.getType()) {
                 case END: {
                     System.out.println("Получена команда 'END'");
+                    logger.info("Получена команда 'END'");
                     return;
                 }
                 case PRIVATE_MESSAGE: {
                     PrivateMessageCommand commandData = (PrivateMessageCommand) command.getData();
                     String receiver = commandData.getReceiver();
                     String message = checkCurseWords(commandData.getMessage());
+                    String logMessage = String.format("Клиент %s отправил приватное сообщение для %s", nickname, receiver);
                     networkServer.sendMessage(receiver, Command.messageCommand(nickname, message));
+                    logger.info(logMessage);
                     break;
                 }
                 case CHANGE_NICKNAME: {
@@ -83,9 +89,11 @@ public class ClientHandler {
                     String newNickname = commandData.getNewNickname();
                     if(!networkServer.getDatabaseService().nicknameIsBusy(newNickname)) {
                         networkServer.getDatabaseService().changeNickname(nickname, newNickname);
+                        String logMessage = String.format("Клиент %s сменил никнейм на %s", nickname, newNickname);
                         sendMessage(command);
                         setNickname(newNickname);
                         networkServer.sendUserList();
+                        logger.info(logMessage);
                     }
                     else {
                         sendMessage(Command.errorCommand("Ошибка смены никнейма. Такой никнейм уже существует."));
@@ -96,10 +104,12 @@ public class ClientHandler {
                     BroadcastMessageCommand commandData = (BroadcastMessageCommand) command.getData();
                     String message = checkCurseWords(commandData.getMessage());
                     networkServer.broadcastMessage(Command.messageCommand(nickname, message), this);
+                    logger.info(String.format("Клиент %s отправил сообщение всем.", nickname));
                     break;
                 }
                 default:
                     System.err.println("Неизвестный тип комманды: " + command.getType());
+                    logger.error("Неизвестный тип комманды: " + command.getType());
             }
         }
     }
@@ -110,6 +120,7 @@ public class ClientHandler {
         } catch (ClassNotFoundException e) {
             String errorMessage = "Неизвестный тип объекта от клиента.";
             System.err.println(errorMessage);
+            logger.error(errorMessage);
             e.printStackTrace();
             sendMessage(Command.errorCommand(errorMessage));
             return null;

@@ -12,8 +12,6 @@ public class RunMyTests {
 
     private static final int MIN_PRIORITY = 1;
     private static final int MAX_PRIORITY = 10;
-    private static int beforeAnnotationCount = 0;
-    private static int afterAnnotationCount = 0;
     private static final Map<Integer, Set<Method>> priorityMap = new TreeMap<>();
 
     private static void add(int priority, Method method) {
@@ -26,6 +24,8 @@ public class RunMyTests {
     }
 
     public static void start(Class<?> className) {
+        int beforeAnnotationCount = 0;
+        int afterAnnotationCount = 0;
 
         for (Method method :className.getDeclaredMethods()) {
             if (method.getAnnotation(BeforeSuite.class) != null) {

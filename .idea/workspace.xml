@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="J3 ДЗ Урок 6">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,29 +99,29 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Downloads/6" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\My docs\Обучение\geekbrains\NetworkClientChat" />
-      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat" />
-      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat\src\ru\geekbrains\java2\server\database" />
-      <recent name="D:\My docs\Обучение\geekbrains\.idea" />
-      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\My docs\Обучение\geekbrains\NetworkClientChat\src\ru\geekbrains\java2\client\view" />
-      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.geekbrains.java2.command" />
       <recent name="ru.geekbrains.java2.client.model" />
       <recent name="ru.geekbrains.java2.client.controller" />
       <recent name="ru.geekbrains.java2.server.auth" />
       <recent name="ru.geekbrains.java2.server.client" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkClientChat\src\ru\geekbrains\java2\client\view" />
+      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkClientChat" />
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat" />
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat\src\ru\geekbrains\java2\server\database" />
+      <recent name="D:\My docs\Обучение\geekbrains\.idea" />
+      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ClassForTestsTest">
@@ -534,10 +532,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="872" y="178" key="#Inspections/0.0.2560.1040@0.0.2560.1040" timestamp="1584101639918" />
-    <state x="1495" y="104" key="#Project_Structure" timestamp="1586684216145">
+    <state x="1495" y="104" key="#Project_Structure" timestamp="1587130929844">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1495" y="104" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1586684216145" />
+    <state x="1495" y="104" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1587130929844" />
     <state x="1512" y="178" key="#SQL_Dialects" timestamp="1585475430355">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

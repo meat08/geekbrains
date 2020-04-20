@@ -13,10 +13,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="geekbrains" target="1.8" />
-      <module name="NetworkClientChat" target="1.8" />
-      <module name="NetworkClientServer" target="1.8" />
-      <module name="NetworkServerChat" target="1.8" />
+      <module name="geekbrains" target="11" />
+      <module name="NetworkClientChat" target="11" />
+      <module name="NetworkClientServer" target="11" />
+      <module name="NetworkServerChat" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

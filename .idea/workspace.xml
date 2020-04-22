@@ -124,20 +124,7 @@
       <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClassForTestsTest">
-    <configuration name="ClassForTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java3.lessonsix.ClassForTests" />
-      <module name="geekbrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java3.lessonsix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RunMyTests">
     <configuration name="NetworkClient" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.NetworkClient" />
       <module name="NetworkClientChat" />
@@ -151,12 +138,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.server.ServerApp" />
-      <module name="NetworkServerChat" />
+    <configuration name="RunMyTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java3.lessonseven.RunMyTests" />
+      <module name="geekbrains" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java2.server.*" />
+          <option name="PATTERN" value="ru.geekbrains.java3.lessonseven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java3.lessonsix.Test" />
+      <module name="geekbrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java3.lessonsix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,19 +195,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.NetworkClient" />
-      <item itemvalue="Application.ServerApp" />
-      <item itemvalue="Application.ClassForTests" />
       <item itemvalue="JUnit.ClassForTestsTest" />
       <item itemvalue="JUnit.ClassForTestsTest.cutArrayTest" />
       <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.RunMyTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunMyTests" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
         <item itemvalue="JUnit.ClassForTestsTest.cutArrayTest" />
         <item itemvalue="JUnit.ClassForTestsTest" />
-        <item itemvalue="Application.ClassForTests" />
-        <item itemvalue="Application.ServerApp" />
       </list>
     </recent_temporary>
   </component>

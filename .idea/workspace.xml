@@ -6,62 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="">
+    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="Some updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="curse_words: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="users: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
-        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-    </expand>
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lesson-1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,12 +49,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Downloads/spring-context-app" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion.Presentation" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -125,7 +76,20 @@
       <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.spring.lesson1.MainApp" />
+      <module name="geekbrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.spring.lesson1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NetworkClient" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.NetworkClient" />
       <module name="NetworkClientChat" />
@@ -152,19 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.Test" />
-      <module name="geekbrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.geekbrains.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java3.lessonsix.Test" />
       <module name="geekbrains" />
@@ -178,12 +129,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassForTestsTest.cutArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClassForTestsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="geekbrains" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ClassForTestsTest" />
-      <option name="METHOD_NAME" value="cutArrayTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,19 +150,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.NetworkClient" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.RunMyTests" />
-      <item itemvalue="Application.Test (1)" />
-      <item itemvalue="JUnit.ClassForTestsTest.cutArrayTest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.MainApp" />
       <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
+      <item itemvalue="JUnit.ClassForTestsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
-        <item itemvalue="JUnit.ClassForTestsTest.cutArrayTest" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.RunMyTests" />
+        <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.ClassForTestsTest" />
+        <item itemvalue="Application.RunMyTests" />
+        <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +227,27 @@
       <workItem from="1586773781208" duration="193000" />
       <workItem from="1587662129118" duration="64000" />
       <workItem from="1587669607974" duration="10000" />
-      <workItem from="1587717025115" duration="1186000" />
+      <workItem from="1587717025115" duration="1852000" />
+      <workItem from="1587976823337" duration="11000" />
+      <workItem from="1591700371460" duration="5098000" />
+      <workItem from="1591779098913" duration="70000" />
+      <workItem from="1591816656505" duration="104000" />
+      <workItem from="1592381467174" duration="610000" />
+      <workItem from="1592383958942" duration="209000" />
+      <workItem from="1592384222846" duration="27000" />
+      <workItem from="1592384339992" duration="6000" />
+      <workItem from="1592384365843" duration="285000" />
+      <workItem from="1592384661782" duration="13000" />
+      <workItem from="1592384701287" duration="611000" />
+      <workItem from="1594208799083" duration="1392000" />
+      <workItem from="1595264377123" duration="171000" />
+      <workItem from="1595264642126" duration="250000" />
+      <workItem from="1595266007809" duration="3067000" />
+      <workItem from="1595404353512" duration="13012000" />
+      <workItem from="1595437022501" duration="608000" />
+      <workItem from="1596526397620" duration="3689000" />
+      <workItem from="1596613969348" duration="4490000" />
+      <workItem from="1599728142585" duration="5654000" />
     </task>
     <task id="LOCAL-00001" summary="Add .idea folder">
       <created>1582232080611</created>
@@ -489,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587551467298</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Some updates">
+      <created>1587718263026</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1587718263026</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,25 +513,85 @@
     <option name="LAST_COMMIT_MESSAGE" value="Some updates" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1234" height="258" key="GridCell.Tab.0.bottom" timestamp="1599734839206">
+    <state x="1495" y="104" key="#Project_Structure" timestamp="1595412798700">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="258" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1599734839206" />
-    <state width="1234" height="258" key="GridCell.Tab.0.center" timestamp="1599734839205">
+    <state x="1495" y="104" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1595412798700" />
+    <state x="541" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591700504137">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="258" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1599734839205" />
-    <state width="1234" height="258" key="GridCell.Tab.0.left" timestamp="1599734839205">
+    <state x="541" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1591700504137" />
+    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1599731535524">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="258" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1599734839205" />
-    <state width="1234" height="258" key="GridCell.Tab.0.right" timestamp="1599734839205">
+    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1599731535524" />
+    <state x="334" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1592381477621">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="258" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1599734839205" />
-    <state x="1512" y="256" key="Vcs.Push.Dialog.v2" timestamp="1599734865791">
+    <state x="334" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1592381477621" />
+    <state x="1545" y="92" key="CommitChangelistDialog2" timestamp="1599735223702">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1599734865791" />
+    <state x="1545" y="92" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1599735223702" />
+    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1599728281882">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1599728281882" />
+    <state width="1234" height="258" key="GridCell.Tab.0.bottom" timestamp="1599734261157">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="258" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1599734261157" />
+    <state width="1234" height="258" key="GridCell.Tab.0.center" timestamp="1599734261157">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="258" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1599734261157" />
+    <state width="1234" height="258" key="GridCell.Tab.0.left" timestamp="1599734261157">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="258" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1599734261157" />
+    <state width="1234" height="258" key="GridCell.Tab.0.right" timestamp="1599734261157">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="258" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1599734261157" />
+    <state width="1234" height="340" key="GridCell.Tab.1.bottom" timestamp="1599733299308">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="340" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1599733299308" />
+    <state width="1234" height="340" key="GridCell.Tab.1.center" timestamp="1599733299308">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="340" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1599733299308" />
+    <state width="1234" height="340" key="GridCell.Tab.1.left" timestamp="1599733299308">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="340" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1599733299308" />
+    <state width="1234" height="340" key="GridCell.Tab.1.right" timestamp="1599733299308">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="340" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1599733299308" />
+    <state x="496" y="89" key="MergeDialog" timestamp="1599735279855">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="496" y="89" key="MergeDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1599735279855" />
+    <state x="1421" y="162" width="1045" height="726" key="SettingsEditor" timestamp="1591816741519">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1421" y="162" width="1045" height="726" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1591816741519" />
+    <state x="1512" y="256" key="Vcs.Push.Dialog.v2" timestamp="1599735251216">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1512" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1599735251216" />
+    <state x="1699" y="236" key="git4idea.branch.GitSmartOperationDialog" timestamp="1599735276834">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1699" y="236" key="git4idea.branch.GitSmartOperationDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1599735276834" />
+    <state x="1302" y="140" key="new project wizard" timestamp="1595264545882">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1302" y="140" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1595264545882" />
+    <state x="1603" y="203" key="spring file set editor" timestamp="1599728445126">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1603" y="203" key="spring file set editor/0.0.2560.1040@0.0.2560.1040" timestamp="1599728445126" />
   </component>
 </project>

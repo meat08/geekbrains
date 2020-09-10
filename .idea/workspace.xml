@@ -7,6 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_15_ea_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_15_ea_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spring/lesson1/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spring/lesson1/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spring/lesson1/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spring/lesson1/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spring/lesson1/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/spring/lesson1/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/geekbrains.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/geekbrains.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -14,55 +31,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="curse_words: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="users: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ServerChat.sqlite" type="feb32156:DbDataSourceImpl" />
-        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-    </expand>
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson-7" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,12 +67,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Downloads/spring-context-app" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion.Presentation" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -126,7 +94,20 @@
       <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.spring.lesson1.MainApp" />
+      <module name="geekbrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.spring.lesson1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NetworkClient" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.NetworkClient" />
       <module name="NetworkClientChat" />
@@ -153,19 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.Test" />
-      <module name="geekbrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.geekbrains.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java3.lessonsix.Test" />
       <module name="geekbrains" />
@@ -179,12 +147,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassForTestsTest.cutArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClassForTestsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="geekbrains" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ClassForTestsTest" />
-      <option name="METHOD_NAME" value="cutArrayTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,19 +168,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.NetworkClient" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.RunMyTests" />
-      <item itemvalue="JUnit.ClassForTestsTest.cutArrayTest" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
-      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="JUnit.ClassForTestsTest" />
+      <item itemvalue="Application.MainApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.RunMyTests" />
+        <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.ClassForTestsTest" />
+        <item itemvalue="Application.RunMyTests" />
         <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
-        <item itemvalue="JUnit.ClassForTestsTest.cutArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +245,27 @@
       <workItem from="1586773781208" duration="193000" />
       <workItem from="1587662129118" duration="64000" />
       <workItem from="1587669607974" duration="10000" />
-      <workItem from="1587717025115" duration="1186000" />
+      <workItem from="1587717025115" duration="1852000" />
+      <workItem from="1587976823337" duration="11000" />
+      <workItem from="1591700371460" duration="5098000" />
+      <workItem from="1591779098913" duration="70000" />
+      <workItem from="1591816656505" duration="104000" />
+      <workItem from="1592381467174" duration="610000" />
+      <workItem from="1592383958942" duration="209000" />
+      <workItem from="1592384222846" duration="27000" />
+      <workItem from="1592384339992" duration="6000" />
+      <workItem from="1592384365843" duration="285000" />
+      <workItem from="1592384661782" duration="13000" />
+      <workItem from="1592384701287" duration="611000" />
+      <workItem from="1594208799083" duration="1392000" />
+      <workItem from="1595264377123" duration="171000" />
+      <workItem from="1595264642126" duration="250000" />
+      <workItem from="1595266007809" duration="3067000" />
+      <workItem from="1595404353512" duration="13012000" />
+      <workItem from="1595437022501" duration="608000" />
+      <workItem from="1596526397620" duration="3689000" />
+      <workItem from="1596613969348" duration="4490000" />
+      <workItem from="1599728142585" duration="5654000" />
     </task>
     <task id="LOCAL-00001" summary="Add .idea folder">
       <created>1582232080611</created>
@@ -490,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587551467298</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Some updates">
+      <created>1587718263026</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1587718263026</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,197 +531,69 @@
     <option name="LAST_COMMIT_MESSAGE" value="Some updates" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1512" y="182" key="#Auto_Import" timestamp="1584868446841">
+    <state x="1495" y="104" key="#Project_Structure" timestamp="1595412798700">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="182" key="#Auto_Import/0.0.2560.1040@0.0.2560.1040" timestamp="1584868446841" />
-    <state x="1512" y="178" key="#File_and_Code_Templates" timestamp="1586689478866">
+    <state x="1495" y="104" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1595412798700" />
+    <state x="541" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591700504137">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="178" key="#File_and_Code_Templates/0.0.2560.1040@0.0.2560.1040" timestamp="1586689478866" />
-    <state x="872" y="178" key="#Inspections" timestamp="1584101639918">
+    <state x="541" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1591700504137" />
+    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1599731535524">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="178" key="#Inspections/0.0.2560.1040@0.0.2560.1040" timestamp="1584101639918" />
-    <state x="1495" y="104" key="#Project_Structure" timestamp="1587130929844">
+    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1599731535524" />
+    <state x="334" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1592381477621">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1495" y="104" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1587130929844" />
-    <state x="1512" y="178" key="#SQL_Dialects" timestamp="1585475430355">
+    <state x="334" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1592381477621" />
+    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1599728281882">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="178" key="#SQL_Dialects/0.0.2560.1040@0.0.2560.1040" timestamp="1585475430355" />
-    <state x="1468" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586687547745">
+    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1599728281882" />
+    <state width="1234" height="258" key="GridCell.Tab.0.bottom" timestamp="1599734261157">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1468" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586687547745" />
-    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1586691886050">
+    <state width="1234" height="258" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1599734261157" />
+    <state width="1234" height="258" key="GridCell.Tab.0.center" timestamp="1599734261157">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1725" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1586691886050" />
-    <state x="1650" y="299" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1584864921485">
+    <state width="1234" height="258" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1599734261157" />
+    <state width="1234" height="258" key="GridCell.Tab.0.left" timestamp="1599734261157">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1650" y="299" key="#com.intellij.ide.util.PackageChooserDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584864921485" />
-    <state x="1671" y="371" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583494758881">
+    <state width="1234" height="258" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1599734261157" />
+    <state width="1234" height="258" key="GridCell.Tab.0.right" timestamp="1599734261157">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1671" y="371" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1583494758881" />
-    <state x="1550" y="212" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1586679678041">
+    <state width="1234" height="258" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1599734261157" />
+    <state width="1234" height="340" key="GridCell.Tab.1.bottom" timestamp="1599733299308">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1550" y="212" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586679678041" />
-    <state x="1570" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586351302201">
+    <state width="1234" height="340" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1599733299308" />
+    <state width="1234" height="340" key="GridCell.Tab.1.center" timestamp="1599733299308">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1570" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586351302201" />
-    <state x="1650" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585492806238">
+    <state width="1234" height="340" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1599733299308" />
+    <state width="1234" height="340" key="GridCell.Tab.1.left" timestamp="1599733299308">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1650" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585492806238" />
-    <state x="1524" y="115" key="CommitChangelistDialog2" timestamp="1587551466893">
+    <state width="1234" height="340" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1599733299308" />
+    <state width="1234" height="340" key="GridCell.Tab.1.right" timestamp="1599733299308">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1524" y="115" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1587551466893" />
-    <state width="434" height="466" key="DebuggerActiveHint" timestamp="1582981816970">
+    <state width="1234" height="340" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1599733299308" />
+    <state x="1421" y="162" width="1045" height="726" key="SettingsEditor" timestamp="1591816741519">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="434" height="466" key="DebuggerActiveHint/0.0.2560.1040@0.0.2560.1040" timestamp="1582981816970" />
-    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1586773889496">
+    <state x="1421" y="162" width="1045" height="726" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1591816741519" />
+    <state x="1302" y="140" key="new project wizard" timestamp="1595264545882">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1586773889496" />
-    <state width="1234" height="257" key="GridCell.Tab.0.bottom" timestamp="1587717974443">
+    <state x="1302" y="140" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1595264545882" />
+    <state x="1603" y="203" key="spring file set editor" timestamp="1599728445126">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="257" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1587717974443" />
-    <state width="1234" height="257" key="GridCell.Tab.0.center" timestamp="1587717974442">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1234" height="257" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1587717974442" />
-    <state width="1234" height="257" key="GridCell.Tab.0.left" timestamp="1587717974442">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1234" height="257" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1587717974442" />
-    <state width="1234" height="257" key="GridCell.Tab.0.right" timestamp="1587717974442">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1234" height="257" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1587717974442" />
-    <state width="1234" height="338" key="GridCell.Tab.1.bottom" timestamp="1586695258166">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1234" height="338" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1586695258166" />
-    <state width="1234" height="338" key="GridCell.Tab.1.center" timestamp="1586695258166">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1234" height="338" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1586695258166" />
-    <state width="1234" height="338" key="GridCell.Tab.1.left" timestamp="1586695258166">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1234" height="338" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1586695258166" />
-    <state width="1234" height="338" key="GridCell.Tab.1.right" timestamp="1586695258166">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="1234" height="338" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1586695258166" />
-    <state x="1620" y="169" key="Maven.ArtifactSearchDialog" timestamp="1586683628156">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1620" y="169" key="Maven.ArtifactSearchDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586683628156" />
-    <state x="248" y="86" key="MergeDialog" timestamp="1585589626040">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="248" y="86" key="MergeDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585589626040" />
-    <state x="992" y="236" key="MultipleFileMergeDialog" timestamp="1586454229390">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="992" y="236" key="MultipleFileMergeDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586454229390" />
-    <state x="1421" y="162" width="1045" height="726" key="SettingsEditor" timestamp="1587662191515">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1421" y="162" width="1045" height="726" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1587662191515" />
-    <state x="1159" y="314" key="UIDesigner.ListEditorDialog" timestamp="1584550521749">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1159" y="314" key="UIDesigner.ListEditorDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584550521749" />
-    <state x="1512" y="254" key="Vcs.Push.Dialog.v2" timestamp="1587551469299">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1512" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1587551469299" />
-    <state width="647" height="520" key="XDebugger.FullValuePopup" timestamp="1580157958911">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="647" height="520" key="XDebugger.FullValuePopup/0.0.2560.1040@0.0.2560.1040" timestamp="1580157958911" />
-    <state x="1799" y="413" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1585659593321">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1799" y="413" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585659593321" />
-    <state x="1500" y="178" key="com.intellij.database.dbimport.ImportDialog" timestamp="1585659215190">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1500" y="178" key="com.intellij.database.dbimport.ImportDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585659215190" />
-    <state x="1650" y="328" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1585659210433">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1650" y="328" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585659210433" />
-    <state x="1636" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585659009000">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1636" y="161" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585659009000" />
-    <state x="92" y="92" width="2376" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1584170046814">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="92" y="92" width="2376" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584170046814" />
-    <state x="1729" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587551400833">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1729" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1587551400833" />
-    <state x="1050" y="401" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1585479526829">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1050" y="401" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1585479526829" />
-    <state x="1481" y="259" width="877" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586351796254">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1481" y="259" width="877" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1040@0.0.2560.1040" timestamp="1586351796254" />
-    <state x="1715" y="239" key="extract.method.dialog" timestamp="1586342769461">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1715" y="239" key="extract.method.dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586342769461" />
-    <state x="1616" y="255" width="607" height="536" key="find.popup" timestamp="1584539914063">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1616" y="255" width="607" height="536" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1584539914063" />
-    <state x="1701" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1586454207735">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1701" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586454207735" />
-    <state x="1645" y="312" key="git4idea.merge.GitPullDialog" timestamp="1584381932387">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1645" y="312" key="git4idea.merge.GitPullDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584381932387" />
-    <state x="1081" y="384" key="git4idea.rebase.GitRebaseDialog" timestamp="1584170108707">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1081" y="384" key="git4idea.rebase.GitRebaseDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584170108707" />
-    <state width="300" height="36" key="javadoc.popup" timestamp="1584551197996">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state width="300" height="36" key="javadoc.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1584551197996" />
-    <state x="1302" y="140" key="new project wizard" timestamp="1587551720645">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1302" y="140" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1587551720645" />
-    <state x="1608" y="367" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1580156635259">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1608" y="367" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1580156635259" />
-    <state x="986" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1584540079743">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="986" y="148" key="refactoring.ChangeSignatureDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584540079743" />
-    <state x="1583" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1582570075951">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1583" y="229" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1582570075951" />
+    <state x="1603" y="203" key="spring file set editor/0.0.2560.1040@0.0.2560.1040" timestamp="1599728445126" />
   </component>
 </project>

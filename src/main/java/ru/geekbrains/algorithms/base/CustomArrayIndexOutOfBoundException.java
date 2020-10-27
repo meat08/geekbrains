@@ -1,4 +1,4 @@
-package ru.geekbrains.algorithms;
+package ru.geekbrains.algorithms.base;
 
 public class CustomArrayIndexOutOfBoundException extends RuntimeException {
     public CustomArrayIndexOutOfBoundException(int index, int size) {

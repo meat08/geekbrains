@@ -1,4 +1,4 @@
-package ru.geekbrains.algorithms;
+package ru.geekbrains.algorithms.base;
 
 import java.util.Arrays;
 

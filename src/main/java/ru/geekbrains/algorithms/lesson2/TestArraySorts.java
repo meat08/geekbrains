@@ -15,9 +15,6 @@ public class TestArraySorts {
 
         for (int i = 0; i < ARRAY_CAPACITY; i++) {
             arrayBubble.insert((int) (Math.random() * ARRAY_CAPACITY + 1), i);
-        }
-
-        for (int i = 0; i < ARRAY_CAPACITY; i++) {
             arrayInsert.insert(arrayBubble.get(i), i);
             arraySelect.insert(arrayBubble.get(i), i);
         }

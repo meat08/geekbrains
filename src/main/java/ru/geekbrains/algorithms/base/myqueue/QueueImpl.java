@@ -1,7 +1,5 @@
 package ru.geekbrains.algorithms.base.myqueue;
 
-import java.util.Objects;
-
 public class QueueImpl<E> implements Queue<E> {
     private static final int DEFAULT_TAIL = -1;
     private static final int DEFAULT_HEAD = 0;
@@ -14,7 +12,7 @@ public class QueueImpl<E> implements Queue<E> {
 
     @SuppressWarnings("unchecked")
     public QueueImpl(int maxSize) {
-        this.data = (E[]) new Objects[maxSize];
+        this.data = (E[]) new Object[maxSize];
         this.tail = DEFAULT_TAIL;
         this.head = DEFAULT_HEAD;
     }

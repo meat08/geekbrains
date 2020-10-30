@@ -1,6 +1,6 @@
 package ru.geekbrains.algorithms.lesson2;
 
-import ru.geekbrains.algorithms.base.ArrayImpl;
+import ru.geekbrains.algorithms.base.myarray.ArrayImpl;
 
 public class TestArraySorts {
 

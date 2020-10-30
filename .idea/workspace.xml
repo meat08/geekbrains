@@ -6,14 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="Some updates">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/ArrayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/CustomArrayIndexOutOfBoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/geekbrains.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/geekbrains.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" beforeDir="false" />
+    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/myqueue/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/myqueue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/myqueue/QueueImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/mystack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/mystack/StackImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/myarray/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/ArrayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/myarray/ArrayImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/CustomArrayIndexOutOfBoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/myarray/CustomArrayIndexOutOfBoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/lesson2/TestArraySorts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/lesson2/TestArraySorts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,19 +29,25 @@
         <option value="CSS File" />
         <option value="JavaFXApplication" />
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ilya Mafov &lt;meat.100@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson-1" />
+        <entry key="$PROJECT_DIR$" value="lesson-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1WzFbNFtwAmlH6wjNrNYow7pYyT" />
   <component name="ProjectViewState">
@@ -72,6 +81,7 @@
       <recent name="ru.geekbrains.java2.server.auth" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My docs\Educations\geekbrains\src\main\java\ru\geekbrains\algorithms\base" />
       <recent name="D:\My docs\Educations\geekbrains\src\main\java\ru\geekbrains" />
       <recent name="D:\My docs\Обучение\geekbrains\NetworkClientChat\src\ru\geekbrains\java2\client\view" />
       <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
@@ -87,7 +97,7 @@
       <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RunMyTests">
+  <component name="RunManager" selected="Application.TestArraySorts">
     <configuration name="NetworkClient" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.NetworkClient" />
       <module name="NetworkClientChat" />
@@ -107,6 +117,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.geekbrains.java3.lessonseven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArraySorts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.algorithms.lesson2.TestArraySorts" />
+      <module name="geekbrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.rtfm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,14 +159,17 @@
     <list>
       <item itemvalue="Application.NetworkClient" />
       <item itemvalue="Application.RunMyTests" />
+      <item itemvalue="Application.TestArraySorts" />
       <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
       <item itemvalue="JUnit.ClassForTestsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestArraySorts" />
         <item itemvalue="JUnit.ClassForTestsTest" />
         <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
         <item itemvalue="Application.RunMyTests" />
+        <item itemvalue="JUnit.ClassForTestsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +261,18 @@
       <workItem from="1603442497983" duration="234000" />
       <workItem from="1603472525510" duration="5000" />
       <workItem from="1603736409346" duration="624000" />
-      <workItem from="1603789430804" duration="1577000" />
+      <workItem from="1603789430804" duration="9647000" />
+      <workItem from="1603804028266" duration="145000" />
+      <workItem from="1603804409265" duration="285000" />
+      <workItem from="1603804706046" duration="83000" />
+      <workItem from="1603804800016" duration="18000" />
+      <workItem from="1603804934635" duration="184000" />
+      <workItem from="1603877290962" duration="5999000" />
+      <workItem from="1603888880039" duration="51000" />
+      <workItem from="1603889492160" duration="693000" />
+      <workItem from="1603994464093" duration="1799000" />
+      <workItem from="1603996275879" duration="3042000" />
+      <workItem from="1604051648232" duration="1529000" />
     </task>
     <task id="LOCAL-00001" summary="Add .idea folder">
       <created>1582232080611</created>
@@ -461,7 +498,28 @@
       <option name="project" value="LOCAL" />
       <updated>1599735314836</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Prepare project">
+      <created>1603791260509</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1603791260509</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Prepare project">
+      <created>1603791391061</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1603791391061</updated>
+    </task>
+    <task id="LOCAL-00035" summary="HW Lesson 2">
+      <created>1603799887642</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1603799887643</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,8 +538,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add .idea folder" />
-    <MESSAGE value="ДЗ Урок 1" />
     <MESSAGE value="Some changes" />
     <MESSAGE value="ДЗ Урок 2" />
     <MESSAGE value="ДЗ Урок 3" />
@@ -505,77 +561,91 @@
     <MESSAGE value="Update maven config" />
     <MESSAGE value="J3 ДЗ Урок 6" />
     <MESSAGE value="Some updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some updates" />
+    <MESSAGE value="Prepare project" />
+    <MESSAGE value="HW Lesson 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW Lesson 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1495" y="104" key="#Project_Structure" timestamp="1595412798700">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1495" y="104" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1595412798700" />
-    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603391053195">
+    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603888821575">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1603391053195" />
-    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1603789732972">
+    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1603888821575" />
+    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1604053034235">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1603789732972" />
-    <state x="1545" y="92" key="CommitChangelistDialog2" timestamp="1599735650170">
+    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1604053034235" />
+    <state x="1600" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603804061730">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1545" y="92" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1599735650170" />
-    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1603789459311">
+    <state x="1600" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1603804061730" />
+    <state x="1545" y="92" key="CommitChangelistDialog2" timestamp="1603799887109">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1603789459311" />
-    <state width="1234" height="340" key="GridCell.Tab.0.bottom" timestamp="1599736416566">
+    <state x="1545" y="92" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1603799887109" />
+    <state width="404" height="466" key="DebuggerActiveHint" timestamp="1603798799799">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="340" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1599736416566" />
-    <state width="1234" height="340" key="GridCell.Tab.0.center" timestamp="1599736416566">
+    <state width="404" height="466" key="DebuggerActiveHint/0.0.2560.1040@0.0.2560.1040" timestamp="1603798799799" />
+    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1604051692195">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="340" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1599736416566" />
-    <state width="1234" height="340" key="GridCell.Tab.0.left" timestamp="1599736416566">
+    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1604051692195" />
+    <state width="1234" height="255" key="GridCell.Tab.0.bottom" timestamp="1604001823387">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="340" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1599736416566" />
-    <state width="1234" height="340" key="GridCell.Tab.0.right" timestamp="1599736416566">
+    <state width="1234" height="255" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1604001823387" />
+    <state width="1234" height="255" key="GridCell.Tab.0.center" timestamp="1604001823387">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="340" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1599736416566" />
-    <state width="1234" height="340" key="GridCell.Tab.1.bottom" timestamp="1599736416566">
+    <state width="1234" height="255" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1604001823387" />
+    <state width="1234" height="255" key="GridCell.Tab.0.left" timestamp="1604001823387">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="340" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1599736416566" />
-    <state width="1234" height="340" key="GridCell.Tab.1.center" timestamp="1599736416566">
+    <state width="1234" height="255" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1604001823387" />
+    <state width="1234" height="255" key="GridCell.Tab.0.right" timestamp="1604001823387">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="340" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1599736416566" />
-    <state width="1234" height="340" key="GridCell.Tab.1.left" timestamp="1599736416566">
+    <state width="1234" height="255" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1604001823387" />
+    <state width="1234" height="337" key="GridCell.Tab.1.bottom" timestamp="1603996264445">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="340" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1599736416566" />
-    <state width="1234" height="340" key="GridCell.Tab.1.right" timestamp="1599736416566">
+    <state width="1234" height="337" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1603996264445" />
+    <state width="1234" height="337" key="GridCell.Tab.1.center" timestamp="1603996264445">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="340" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1599736416566" />
+    <state width="1234" height="337" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1603996264445" />
+    <state width="1234" height="337" key="GridCell.Tab.1.left" timestamp="1603996264445">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="337" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1603996264445" />
+    <state width="1234" height="337" key="GridCell.Tab.1.right" timestamp="1603996264445">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="337" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1603996264445" />
     <state x="496" y="89" key="MergeDialog" timestamp="1599735279855">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="496" y="89" key="MergeDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1599735279855" />
-    <state x="1710" y="226" key="RollbackChangesDialog" timestamp="1599735659518">
+    <state x="1710" y="226" key="RollbackChangesDialog" timestamp="1603791133462">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1710" y="226" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1599735659518" />
-    <state x="1512" y="256" key="Vcs.Push.Dialog.v2" timestamp="1599735316417">
+    <state x="1710" y="226" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1603791133462" />
+    <state x="1421" y="165" key="SettingsEditor" timestamp="1603996097303">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1599735316417" />
-    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603442534101">
+    <state x="1421" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1603996097303" />
+    <state x="1512" y="256" key="Vcs.Push.Dialog.v2" timestamp="1603799889577">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1603442534101" />
+    <state x="1512" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1603799889577" />
+    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603996471194">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1603996471194" />
     <state x="1699" y="236" key="git4idea.branch.GitSmartOperationDialog" timestamp="1599735276834">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -584,10 +654,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1720" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602839524663" />
-    <state x="1302" y="140" key="new project wizard" timestamp="1599735748956">
+    <state x="1302" y="140" key="new project wizard" timestamp="1603888737857">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1302" y="140" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1599735748956" />
+    <state x="1302" y="140" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1603888737857" />
     <state x="1603" y="203" key="spring file set editor" timestamp="1599728445126">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

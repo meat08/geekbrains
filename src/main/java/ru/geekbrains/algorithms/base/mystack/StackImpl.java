@@ -1,14 +1,12 @@
 package ru.geekbrains.algorithms.base.mystack;
 
-import java.util.Objects;
-
 public class StackImpl<E> implements Stack<E> {
     private E[] data;
     private int size;
 
     @SuppressWarnings("unchecked")
     public StackImpl(int maxSize) {
-        this.data = (E[]) new Objects[maxSize];
+        this.data = (E[]) new Object[maxSize];
     }
 
     @Override

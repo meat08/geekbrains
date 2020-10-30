@@ -9,7 +9,7 @@ public class FlipString {
         Stack<Character> chars = new StackImpl<>(line.length());
         line.chars().forEach(ch -> chars.push((char)ch));
         while (!chars.isEmpty()) {
-            System.out.println(chars.pop());
+            System.out.print(chars.pop());
         }
     }
 }

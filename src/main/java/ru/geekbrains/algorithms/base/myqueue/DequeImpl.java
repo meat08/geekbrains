@@ -11,10 +11,10 @@ public class DequeImpl<E> extends QueueImpl<E> implements Deque<E> {
         if (isFull()) {
             return false;
         }
-        if (--head < 0) {
-            head = data.length - 1;
+        if (head == DEFAULT_HEAD) {
+            head = data.length;
         }
-        data[head] = value;
+        data[--head] = value;
         size++;
         return true;
     }
@@ -34,12 +34,11 @@ public class DequeImpl<E> extends QueueImpl<E> implements Deque<E> {
         if (isEmpty()) {
             return null;
         }
-        if (tail < 0) {
+        if (tail == DEFAULT_TAIL) {
             tail = data.length - 1;
         }
-        E removed = data[tail--];
         size--;
-        return removed;
+        return data[tail--];
     }
 
     @Override

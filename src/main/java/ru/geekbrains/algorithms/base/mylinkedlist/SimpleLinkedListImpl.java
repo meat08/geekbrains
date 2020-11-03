@@ -1,5 +1,7 @@
 package ru.geekbrains.algorithms.base.mylinkedlist;
 
+import java.util.Iterator;
+
 public class SimpleLinkedListImpl<E> implements LinkedList<E> {
 
     protected int size;
@@ -25,6 +27,7 @@ public class SimpleLinkedListImpl<E> implements LinkedList<E> {
         return data;
     }
 
+    @SuppressWarnings("DuplicatedCode")
     @Override
     public boolean remove(E value) {
         Node<E> current = firstElement;
@@ -86,5 +89,10 @@ public class SimpleLinkedListImpl<E> implements LinkedList<E> {
             current = current.next;
         }
         System.out.println("-----------");
+    }
+
+    @Override
+    public Iterator<Node<E>> iterator() {
+        return new ListIterator<>(firstElement);
     }
 }

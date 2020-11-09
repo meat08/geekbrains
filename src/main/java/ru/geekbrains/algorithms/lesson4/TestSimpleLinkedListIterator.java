@@ -13,8 +13,8 @@ public class TestSimpleLinkedListIterator {
         list.insertFirst(5);
         list.display();
 
-        for (LinkedList.Node<Integer> i : list) {
-            System.out.println(i.getData());
+        for (Integer i : list) {
+            System.out.println(i);
         }
 
     }

@@ -6,9 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="">
+    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="HW lesson 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/myqueue/DequeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/myqueue/DequeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/mylinkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/mylinkedlist/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/mylinkedlist/SimpleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/mylinkedlist/SimpleLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/lesson4/TestSimpleLinkedListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/lesson4/TestSimpleLinkedListIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson-3" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,15 +63,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="debugger.stepping" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\My docs\Обучение\geekbrains\NetworkClientChat" />
-      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat" />
-      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat\src\ru\geekbrains\java2\server\database" />
-      <recent name="D:\My docs\Обучение\geekbrains\.idea" />
-      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.geekbrains.algorithms.lesson4" />
+      <recent name="ru.geekbrains.algorithms" />
+      <recent name="ru.geekbrains.java2.command" />
+      <recent name="ru.geekbrains.java2.client.model" />
+      <recent name="ru.geekbrains.java2.client.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\My docs\Educations\geekbrains\src\main\java\ru\geekbrains\algorithms\base" />
@@ -78,24 +80,39 @@
       <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.geekbrains.algorithms.base.mystack" />
+      <recent name="ru.geekbrains.algorithms.base.myqueue" />
       <recent name="ru.geekbrains.algorithms.lesson2" />
       <recent name="ru.geekbrains.algorithms" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ru.geekbrains.algorithms" />
-      <recent name="ru.geekbrains.java2.command" />
-      <recent name="ru.geekbrains.java2.client.model" />
-      <recent name="ru.geekbrains.java2.client.controller" />
-      <recent name="ru.geekbrains.java2.server.auth" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkClientChat" />
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat" />
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat\src\ru\geekbrains\java2\server\database" />
+      <recent name="D:\My docs\Обучение\geekbrains\.idea" />
+      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestArraySorts">
+  <component name="RunManager" selected="Application.TestSimpleLinkedListIterator">
     <configuration name="FlipString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.algorithms.lesson3.FlipString" />
       <module name="geekbrains" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.geekbrains.algorithms.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkIteratorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.algorithms.lesson4.task2.LinkIteratorApp" />
+      <module name="geekbrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.algorithms.lesson4.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunMyTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java3.lessonseven.RunMyTests" />
+    <configuration name="TestDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.algorithms.lesson3.TestDeque" />
       <module name="geekbrains" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java3.lessonseven.*" />
+          <option name="PATTERN" value="ru.geekbrains.algorithms.lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArraySorts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.algorithms.lesson2.TestArraySorts" />
+    <configuration name="TestSimpleLinkedListIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.algorithms.lesson4.TestSimpleLinkedListIterator" />
       <module name="geekbrains" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.rtfm.sort.*" />
+          <option name="PATTERN" value="ru.geekbrains.algorithms.lesson4.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,31 +168,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassForTestsTest.isOneAndFourInArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="geekbrains" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClassForTestsTest" />
-      <option name="METHOD_NAME" value="isOneAndFourInArrayTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.NetworkClient" />
-      <item itemvalue="Application.TestArraySorts" />
-      <item itemvalue="Application.RunMyTests" />
-      <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
-      <item itemvalue="JUnit.ClassForTestsTest" />
       <item itemvalue="Application.FlipString" />
+      <item itemvalue="Application.TestDeque" />
+      <item itemvalue="Application.LinkIteratorApp" />
+      <item itemvalue="Application.TestSimpleLinkedListIterator" />
+      <item itemvalue="JUnit.ClassForTestsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSimpleLinkedListIterator" />
+        <item itemvalue="Application.LinkIteratorApp" />
+        <item itemvalue="Application.TestDeque" />
         <item itemvalue="Application.FlipString" />
         <item itemvalue="JUnit.ClassForTestsTest" />
-        <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
-        <item itemvalue="Application.TestArraySorts" />
-        <item itemvalue="Application.RunMyTests" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +290,12 @@
       <workItem from="1604065929673" duration="6000" />
       <workItem from="1604227095763" duration="13576000" />
       <workItem from="1604305750639" duration="11000" />
-      <workItem from="1604340007981" duration="1042000" />
+      <workItem from="1604340007981" duration="3922000" />
+      <workItem from="1604391368986" duration="8620000" />
+      <workItem from="1604401093029" duration="7000" />
+      <workItem from="1604599181251" duration="698000" />
+      <workItem from="1604600510831" duration="14000" />
+      <workItem from="1604911093691" duration="1312000" />
     </task>
     <task id="LOCAL-00001" summary="Add .idea folder">
       <created>1582232080611</created>
@@ -565,7 +577,28 @@
       <option name="project" value="LOCAL" />
       <updated>1604064216455</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Refactoring">
+      <created>1604341066120</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1604341066120</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Prepare project">
+      <created>1604393456910</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1604393456910</updated>
+    </task>
+    <task id="LOCAL-00043" summary="HW lesson 4">
+      <created>1604399983733</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1604399983733</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,8 +617,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ДЗ Урок 3" />
-    <MESSAGE value="Rename Map class" />
     <MESSAGE value="ДЗ Урок 4" />
     <MESSAGE value="ДЗ Урок 5" />
     <MESSAGE value="ДЗ Урок 6" />
@@ -606,68 +637,70 @@
     <MESSAGE value="J3 ДЗ Урок 6" />
     <MESSAGE value="Some updates" />
     <MESSAGE value="HW Lesson 2" />
-    <MESSAGE value="Prepare project" />
     <MESSAGE value="HW lesson 3" />
     <MESSAGE value="println -&gt; print" />
-    <option name="LAST_COMMIT_MESSAGE" value="println -&gt; print" />
+    <MESSAGE value="Refactoring" />
+    <MESSAGE value="Prepare project" />
+    <MESSAGE value="HW lesson 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW lesson 4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603888821575">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1603888821575" />
-    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1604238370462">
+    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1604399012323">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1604238370462" />
+    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1604399012323" />
     <state x="1600" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603804061730">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1600" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1603804061730" />
-    <state x="1545" y="92" key="CommitChangelistDialog2" timestamp="1604064215904">
+    <state x="1545" y="92" key="CommitChangelistDialog2" timestamp="1604399983149">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1545" y="92" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1604064215904" />
-    <state width="404" height="466" key="DebuggerActiveHint" timestamp="1604058690256">
+    <state x="1545" y="92" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1604399983149" />
+    <state width="437" height="466" key="DebuggerActiveHint" timestamp="1604396323672">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="404" height="466" key="DebuggerActiveHint/0.0.2560.1040@0.0.2560.1040" timestamp="1604058690256" />
+    <state width="437" height="466" key="DebuggerActiveHint/0.0.2560.1040@0.0.2560.1040" timestamp="1604396323672" />
     <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1604051692195">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1604051692195" />
-    <state width="1234" height="254" key="GridCell.Tab.0.bottom" timestamp="1604241374164">
+    <state width="1234" height="338" key="GridCell.Tab.0.bottom" timestamp="1604400095367">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="254" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1604241374164" />
-    <state width="1234" height="254" key="GridCell.Tab.0.center" timestamp="1604241374164">
+    <state width="1234" height="338" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1604400095367" />
+    <state width="1234" height="338" key="GridCell.Tab.0.center" timestamp="1604400095367">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="254" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1604241374164" />
-    <state width="1234" height="254" key="GridCell.Tab.0.left" timestamp="1604241374164">
+    <state width="1234" height="338" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1604400095367" />
+    <state width="1234" height="338" key="GridCell.Tab.0.left" timestamp="1604400095367">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="254" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1604241374164" />
-    <state width="1234" height="254" key="GridCell.Tab.0.right" timestamp="1604241374164">
+    <state width="1234" height="338" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1604400095367" />
+    <state width="1234" height="338" key="GridCell.Tab.0.right" timestamp="1604400095367">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="254" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1604241374164" />
-    <state width="1234" height="336" key="GridCell.Tab.1.bottom" timestamp="1604241374161">
+    <state width="1234" height="338" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1604400095367" />
+    <state width="1234" height="338" key="GridCell.Tab.1.bottom" timestamp="1604400095367">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="336" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1604241374161" />
-    <state width="1234" height="336" key="GridCell.Tab.1.center" timestamp="1604241374161">
+    <state width="1234" height="338" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1604400095367" />
+    <state width="1234" height="338" key="GridCell.Tab.1.center" timestamp="1604400095367">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="336" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1604241374161" />
-    <state width="1234" height="336" key="GridCell.Tab.1.left" timestamp="1604241374161">
+    <state width="1234" height="338" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1604400095367" />
+    <state width="1234" height="338" key="GridCell.Tab.1.left" timestamp="1604400095367">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="336" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1604241374161" />
-    <state width="1234" height="336" key="GridCell.Tab.1.right" timestamp="1604241374161">
+    <state width="1234" height="338" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1604400095367" />
+    <state width="1234" height="338" key="GridCell.Tab.1.right" timestamp="1604400095367">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="336" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1604241374161" />
+    <state width="1234" height="338" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1604400095367" />
     <state x="496" y="89" key="MergeDialog" timestamp="1599735279855">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -676,14 +709,14 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1710" y="226" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1603791133462" />
-    <state x="1421" y="165" key="SettingsEditor" timestamp="1603996097303">
+    <state x="1421" y="165" key="SettingsEditor" timestamp="1604396998793">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1421" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1603996097303" />
-    <state x="1512" y="256" key="Vcs.Push.Dialog.v2" timestamp="1604064218522">
+    <state x="1421" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1604396998793" />
+    <state x="1512" y="256" key="Vcs.Push.Dialog.v2" timestamp="1604399985965">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1604064218522" />
+    <state x="1512" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1604399985965" />
     <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604340021659">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -700,10 +733,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1302" y="140" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1603888737857" />
-    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1604053558838">
+    <state x="1656" y="87" width="672" height="678" key="search.everywhere.popup" timestamp="1604399723511">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604053558838" />
+    <state x="1656" y="87" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604399723511" />
     <state x="1603" y="203" key="spring file set editor" timestamp="1599728445126">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

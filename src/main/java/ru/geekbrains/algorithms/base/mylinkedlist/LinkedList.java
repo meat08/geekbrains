@@ -2,7 +2,7 @@ package ru.geekbrains.algorithms.base.mylinkedlist;
 
 import java.util.Iterator;
 
-public interface LinkedList<E> extends Iterable<LinkedList.Node<E>> {
+public interface LinkedList<E> extends Iterable<E> {
 
     void insertFirst(E value);
     E removeFirst();
@@ -12,7 +12,7 @@ public interface LinkedList<E> extends Iterable<LinkedList.Node<E>> {
     int size();
     boolean isEmpty();
     void display();
-    Iterator<Node<E>> iterator();
+    Iterator<E> iterator();
 
     class Node<E> {
         E item;
@@ -22,17 +22,13 @@ public interface LinkedList<E> extends Iterable<LinkedList.Node<E>> {
             this.item = item;
             this.next = next;
         }
-
-        public E getData() {
-            return item;
-        }
     }
 
-    class ListIterator<E> implements Iterator<Node<E>> {
+    class ListIterator<E> implements Iterator<E> {
 
-        private LinkedList.Node<E> current;
+        private Node<E> current;
 
-        public ListIterator(LinkedList.Node<E> first) {
+        public ListIterator(Node<E> first) {
             this.current = first;
         }
 
@@ -42,8 +38,8 @@ public interface LinkedList<E> extends Iterable<LinkedList.Node<E>> {
         }
 
         @Override
-        public LinkedList.Node<E> next() {
-            LinkedList.Node<E> temp = current;
+        public E next() {
+            E temp = current.item;
             current = current.next;
             return temp;
         }

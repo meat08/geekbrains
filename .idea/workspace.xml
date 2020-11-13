@@ -6,13 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="HW lesson 4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/mytree/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/mytree/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/mytree/TreeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +32,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson-5" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -296,7 +290,7 @@
       <workItem from="1604600510831" duration="14000" />
       <workItem from="1604911093691" duration="1312000" />
       <workItem from="1605212921656" duration="90000" />
-      <workItem from="1605262663783" duration="3527000" />
+      <workItem from="1605262663783" duration="3982000" />
     </task>
     <task id="LOCAL-00001" summary="Add .idea folder">
       <created>1582232080611</created>
@@ -599,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604399983733</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Prepare project">
+      <created>1605266299916</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1605266299916</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,9 +642,9 @@
     <MESSAGE value="HW lesson 3" />
     <MESSAGE value="println -&gt; print" />
     <MESSAGE value="Refactoring" />
-    <MESSAGE value="Prepare project" />
     <MESSAGE value="HW lesson 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW lesson 4" />
+    <MESSAGE value="Prepare project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1400" y="94" key="#Project_Structure" timestamp="1605212989756">
@@ -662,10 +663,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1600" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1603804061730" />
-    <state x="1545" y="92" key="CommitChangelistDialog2" timestamp="1604399983149">
+    <state x="1545" y="92" key="CommitChangelistDialog2" timestamp="1605266298753">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1545" y="92" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1604399983149" />
+    <state x="1545" y="92" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1605266298753" />
     <state width="437" height="466" key="DebuggerActiveHint" timestamp="1604396323672">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -718,10 +719,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1421" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1604396998793" />
-    <state x="1512" y="256" key="Vcs.Push.Dialog.v2" timestamp="1604399985965">
+    <state x="1512" y="256" key="Vcs.Push.Dialog.v2" timestamp="1605266301404">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1604399985965" />
+    <state x="1512" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1605266301404" />
     <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604340021659">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

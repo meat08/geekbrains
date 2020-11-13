@@ -103,25 +103,25 @@ public class TreeImpl<E extends Comparable<? super E>> implements Tree<E> {
             Stack<Node<E>> localStack = new Stack<>();
             isRowEmpty = true;
             for (int i = 0; i < nBlanks; i++) {
-                System.out.println(" ");
+                System.out.print(" ");
             }
 
             while (!globalStack.isEmpty()) {
                 Node<E> tempNode = globalStack.pop();
                 if (tempNode != null) {
-                    System.out.println(tempNode.getValue());
+                    System.out.print(tempNode.getValue());
                     localStack.push(tempNode.getLeftChild());
                     localStack.push(tempNode.getRightChild());
                     if (tempNode.getLeftChild() != null || tempNode.getRightChild() != null) {
                         isRowEmpty = false;
                     }
                 } else {
-                    System.out.println("--");
+                    System.out.print("--");
                     localStack.push(null);
                     localStack.push(null);
                 }
                 for (int i = 0; i < nBlanks * 2 - 2; i++) {
-                    System.out.println(" ");
+                    System.out.print(" ");
                 }
             }
             System.out.println();

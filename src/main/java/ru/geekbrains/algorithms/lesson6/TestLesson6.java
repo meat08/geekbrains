@@ -44,7 +44,7 @@ public class TestLesson6 {
                 unbalancedTree++;
             }
         }
-        return (float) (unbalancedTree / (balancedTree + unbalancedTree)) * 100;
+        return (float) unbalancedTree / (balancedTree + unbalancedTree) * 100;
     }
 
     private static float calculateMeanPercent(int treeCount, int depth, int range) {

@@ -32,7 +32,6 @@ public class TreeImpl<E extends Comparable<? super E>> implements Tree<E> {
 
         Node<E> parent = nodeAndParent.parent;
         if (parent != null && parent.getDepthPosition() + 1 <= depth) {
-            newNode.setDepthPosition(parent.getDepthPosition() + 1);
             parent.addChild(newNode);
             size++;
             return true;
@@ -184,6 +183,7 @@ public class TreeImpl<E extends Comparable<? super E>> implements Tree<E> {
     private NodeAndParent doFind(E value) {
         Node<E> previous = null;
         Node<E> current = root;
+        current.setDepthPosition(1);
 
         while (current != null) {
             if (current.getValue().equals(value)) {
@@ -194,6 +194,9 @@ public class TreeImpl<E extends Comparable<? super E>> implements Tree<E> {
                 current = current.getRightChild();
             } else {
                 current = current.getLeftChild();
+            }
+            if (current != null) {
+                current.setDepthPosition(previous.getDepthPosition() + 1);
             }
         }
         return new NodeAndParent(null, previous);

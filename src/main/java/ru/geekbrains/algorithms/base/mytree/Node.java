@@ -5,6 +5,7 @@ public class Node<T extends Comparable<? super T>> {
 
     private Node<T> leftChild;
     private Node<T> rightChild;
+    private int depthPosition;
 
     public Node(T value) {
         this.value = value;
@@ -28,6 +29,14 @@ public class Node<T extends Comparable<? super T>> {
 
     public void setRightChild(Node<T> rightChild) {
         this.rightChild = rightChild;
+    }
+
+    public int getDepthPosition() {
+        return depthPosition;
+    }
+
+    public void setDepthPosition(int depthPosition) {
+        this.depthPosition = depthPosition;
     }
 
     public boolean isLeaf() {

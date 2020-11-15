@@ -45,6 +45,10 @@ public class Backpack {
             itemsList.set(i, temp);
 
             calculateItems(itemsList, index+1, limit);
+
+            temp = itemsList.get(index);
+            itemsList.set(index, itemsList.get(i));
+            itemsList.set(i, temp);
         }
     }
 

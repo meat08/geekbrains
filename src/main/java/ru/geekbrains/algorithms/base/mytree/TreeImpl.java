@@ -9,6 +9,10 @@ public class TreeImpl<E extends Comparable<? super E>> implements Tree<E> {
     private int size;
     private final int depth;
 
+    public TreeImpl() {
+        this(0);
+    }
+
     public TreeImpl(int depth) {
         this.depth = depth;
     }
@@ -19,7 +23,6 @@ public class TreeImpl<E extends Comparable<? super E>> implements Tree<E> {
 
         if (isEmpty()) {
             this.root = newNode;
-            this.root.setDepthPosition(1);
             size++;
             return true;
         }
@@ -31,13 +34,12 @@ public class TreeImpl<E extends Comparable<? super E>> implements Tree<E> {
         }
 
         Node<E> parent = nodeAndParent.parent;
-        if (parent != null && parent.getDepthPosition() + 1 <= depth) {
-            parent.addChild(newNode);
-            size++;
-            return true;
-        } else {
+        if (parent.getDepthPosition() + 1 > depth && depth != 0) {
             return false;
         }
+        parent.addChild(newNode);
+        size++;
+        return true;
     }
 
     @Override

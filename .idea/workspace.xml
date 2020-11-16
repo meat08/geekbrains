@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="" />
+    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/mytree/TreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/mytree/TreeImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +35,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lesson-5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,7 +57,7 @@
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore.preview.features.used" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Downloads/ADS_2020_10_22_students" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Downloads/spring-cloud" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -89,20 +92,7 @@
       <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestArraySorts">
-    <configuration name="FlipString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.algorithms.lesson3.FlipString" />
-      <module name="geekbrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.geekbrains.algorithms.lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestLesson6">
     <configuration name="NetworkClient" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.NetworkClient" />
       <module name="NetworkClientChat" />
@@ -142,6 +132,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLesson6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.algorithms.lesson6.TestLesson6" />
+      <module name="geekbrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.algorithms.lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClassForTestsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="geekbrains" />
       <option name="PACKAGE_NAME" value="" />
@@ -163,19 +166,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.NetworkClient" />
-      <item itemvalue="Application.FlipString" />
       <item itemvalue="Application.TestArraySorts" />
       <item itemvalue="Application.RunMyTests" />
       <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
       <item itemvalue="JUnit.ClassForTestsTest" />
+      <item itemvalue="Application.TestLesson6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestLesson6" />
         <item itemvalue="JUnit.ClassForTestsTest" />
         <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
         <item itemvalue="Application.RunMyTests" />
         <item itemvalue="Application.TestArraySorts" />
-        <item itemvalue="Application.FlipString" />
       </list>
     </recent_temporary>
   </component>
@@ -291,6 +294,8 @@
       <workItem from="1604911093691" duration="1312000" />
       <workItem from="1605212921656" duration="90000" />
       <workItem from="1605262663783" duration="3982000" />
+      <workItem from="1605523905618" duration="9000" />
+      <workItem from="1605549852778" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="Add .idea folder">
       <created>1582232080611</created>
@@ -655,10 +660,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1603888821575" />
-    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1605263378643">
+    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1605550290462">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1605263378643" />
+    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1605550290462" />
     <state x="1600" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603804061730">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -671,10 +676,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="437" height="466" key="DebuggerActiveHint/0.0.2560.1040@0.0.2560.1040" timestamp="1604396323672" />
-    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1605262674892">
+    <state x="1595" y="235" key="FileChooserDialogImpl" timestamp="1605523912152">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1605262674892" />
+    <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1605523912152" />
     <state width="1234" height="338" key="GridCell.Tab.0.bottom" timestamp="1604400095367">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -723,10 +728,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1512" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1605266301404" />
-    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604340021659">
+    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605475281178">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1604340021659" />
+    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1605475281178" />
     <state x="1699" y="236" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604056155578">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

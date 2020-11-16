@@ -14,6 +14,9 @@ public class TreeImpl<E extends Comparable<? super E>> implements Tree<E> {
     }
 
     public TreeImpl(int depth) {
+        if (depth < 0) {
+            throw new IllegalArgumentException("Depth must be greater than or equal to 0");
+        }
         this.depth = depth;
     }
 

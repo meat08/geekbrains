@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/mytree/TreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/mytree/TreeImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -295,7 +294,7 @@
       <workItem from="1605212921656" duration="90000" />
       <workItem from="1605262663783" duration="3982000" />
       <workItem from="1605523905618" duration="9000" />
-      <workItem from="1605549852778" duration="699000" />
+      <workItem from="1605549852778" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="Add .idea folder">
       <created>1582232080611</created>
@@ -605,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605266299916</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Refactoring">
+      <created>1605550629226</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1605550629226</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,10 +652,10 @@
     <MESSAGE value="HW Lesson 2" />
     <MESSAGE value="HW lesson 3" />
     <MESSAGE value="println -&gt; print" />
-    <MESSAGE value="Refactoring" />
     <MESSAGE value="HW lesson 4" />
     <MESSAGE value="Prepare project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare project" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1400" y="94" key="#Project_Structure" timestamp="1605212989756">
@@ -668,10 +674,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1600" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1603804061730" />
-    <state x="1545" y="92" key="CommitChangelistDialog2" timestamp="1605266298753">
+    <state x="1545" y="92" key="CommitChangelistDialog2" timestamp="1605550627995">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1545" y="92" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1605266298753" />
+    <state x="1545" y="92" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1605550627995" />
     <state width="437" height="466" key="DebuggerActiveHint" timestamp="1604396323672">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -724,10 +730,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1421" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1604396998793" />
-    <state x="1512" y="256" key="Vcs.Push.Dialog.v2" timestamp="1605266301404">
+    <state x="1512" y="256" key="Vcs.Push.Dialog.v2" timestamp="1605550636816">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1605266301404" />
+    <state x="1512" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1605550636816" />
     <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605475281178">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

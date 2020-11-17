@@ -51,7 +51,7 @@ public class Graph {
         }
     }
 
-    public void dfb(String startLabel) {
+    public void dfs(String startLabel) {
         int startIndex = indexOf(startLabel);
         if (startIndex == -1) {
             throw new IllegalArgumentException("Invalid start label");
@@ -71,7 +71,7 @@ public class Graph {
         resetVertexState();
     }
 
-    public void bfb(String startLabel) {
+    public void bfs(String startLabel) {
         int startIndex = indexOf(startLabel);
         if (startIndex == -1) {
             throw new IllegalArgumentException("Invalid start label");

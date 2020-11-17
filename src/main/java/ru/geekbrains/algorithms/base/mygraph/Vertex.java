@@ -35,4 +35,11 @@ public class Vertex {
         Vertex vertex = (Vertex) obj;
         return Objects.equals(label, vertex.label);
     }
+
+    @Override
+    public String toString() {
+        return "Vertex{" +
+                "label='" + label + '\'' +
+                '}';
+    }
 }

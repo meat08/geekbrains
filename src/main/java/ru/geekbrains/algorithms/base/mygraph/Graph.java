@@ -91,6 +91,57 @@ public class Graph {
         resetVertexState();
     }
 
+    public void findShortestRoute(String startLabel, String endLabel) {
+        int startIndex = indexOf(startLabel);
+        int endIndex = indexOf(endLabel);
+        if (startIndex == -1 || endIndex == -1) {
+            throw new IllegalArgumentException("Invalid label");
+        }
+        Queue<Vertex> queue = new LinkedList<>();
+        Vertex vertex = vertexList.get(startIndex);
+        visitVertex(vertex, queue);
+
+        while (!queue.isEmpty()) {
+            vertex = getNearUnvisitedVertex(queue.peek());
+            if (vertex != null) {
+                visitVertex(vertex, queue);
+                if (endLabel.equals(vertex.getLabel())) {
+                    break;
+                }
+            } else {
+                queue.remove();
+            }
+        }
+        printPath(vertexList.get(endIndex));
+        resetVertexState();
+        resetVertexParent();
+    }
+
+    private void printPath(Vertex vertex) {
+        Stack<String> stack = new Stack<>();
+        getPath(vertex, stack);
+        while (!stack.isEmpty()) {
+            System.out.print(stack.pop() + (stack.size() > 0 ? " -> " : ""));
+        }
+        System.out.println();
+    }
+
+    private void getPath(Vertex vertex, Stack<String> stack) {
+        Vertex parent = vertex.getParent();
+        if (parent == null) {
+            stack.push(vertex.getLabel());
+            return;
+        }
+        stack.push(vertex.getLabel());
+        getPath(parent, stack);
+    }
+
+    private void resetVertexParent() {
+        for (Vertex vertex : vertexList) {
+            vertex.setParent(null);
+        }
+    }
+
     private int indexOf(String vertexLabel) {
         for (int i = 0; i < vertexList.size(); i++) {
             if (vertexLabel.equals(vertexList.get(i).getLabel())) {
@@ -104,7 +155,9 @@ public class Graph {
         int peekIndex = vertexList.indexOf(peek);
         for (int i = 0; i < getVertexSize(); i++) {
             if (adjMat[peekIndex][i] && !vertexList.get(i).isVisited()) {
-                return vertexList.get(i);
+                Vertex next = vertexList.get(i);
+                next.setParent(peek);
+                return next;
             }
         }
         return null;
@@ -122,7 +175,7 @@ public class Graph {
         vertex.setVisited(true);
     }
     private void visitVertex(Vertex vertex, Queue<Vertex> queue) {
-        System.out.println(vertex);
+//        System.out.println(vertex);
         queue.add(vertex);
         vertex.setVisited(true);
     }

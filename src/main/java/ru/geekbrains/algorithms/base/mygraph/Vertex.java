@@ -6,6 +6,7 @@ public class Vertex {
 
     private final String label;
     private boolean visited;
+    private Vertex parent;
 
     public Vertex(String label) {
         this.label = label;
@@ -21,6 +22,14 @@ public class Vertex {
 
     public void setVisited(boolean visited) {
         this.visited = visited;
+    }
+
+    public Vertex getParent() {
+        return parent;
+    }
+
+    public void setParent(Vertex parent) {
+        this.parent = parent;
     }
 
     @Override

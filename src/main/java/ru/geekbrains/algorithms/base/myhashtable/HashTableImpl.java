@@ -2,9 +2,9 @@ package ru.geekbrains.algorithms.base.myhashtable;
 
 public class HashTableImpl<K, V> implements HashTable<K, V> {
 
-    private final int maxSize;
-    private final Node<K, V>[] data;
-    private int size;
+    protected final int maxSize;
+    protected final Node<K, V>[] data;
+    protected int size;
 
     @SuppressWarnings("unchecked")
     public HashTableImpl(int maxSize) {
@@ -73,7 +73,7 @@ public class HashTableImpl<K, V> implements HashTable<K, V> {
         System.out.println("----------");
     }
 
-    private int hash(K key) {
+    protected int hash(K key) {
         return key.hashCode() % data.length;
     }
 
@@ -94,10 +94,12 @@ public class HashTableImpl<K, V> implements HashTable<K, V> {
     static class Node<K, V> implements Entry<K, V> {
         private final K key;
         private V value;
+        private Node<K, V> next;
 
         public Node(K key, V value) {
             this.key = key;
             this.value = value;
+            this.next = null;
         }
 
 
@@ -114,6 +116,14 @@ public class HashTableImpl<K, V> implements HashTable<K, V> {
         @Override
         public void setValue(V value) {
             this.value = value;
+        }
+
+        public Node<K, V> getNext() {
+            return next;
+        }
+
+        public void setNext(Node<K, V> next) {
+            this.next = next;
         }
 
         @Override

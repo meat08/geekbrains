@@ -9,7 +9,7 @@ public class LinkedHashTableImpl<K, V> extends HashTableImpl<K, V> {
     @Override
     public boolean put(K key, V value) {
         int index = hash(key);
-        if (size == maxSize) {
+        if (index >= maxSize) {
             return false;
         }
         if (data[index] == null) {

@@ -26,6 +26,7 @@ public class LinkedHashTableImpl<K, V> extends HashTableImpl<K, V> {
             node = node.getNext();
         }
         node.setNext(new Node<>(key, value));
+        size++;
         return true;
     }
 
@@ -62,6 +63,7 @@ public class LinkedHashTableImpl<K, V> extends HashTableImpl<K, V> {
                     }
                 } else {
                     previous.setNext(current.getNext());
+                    size--;
                 }
                 return current.getValue();
             }

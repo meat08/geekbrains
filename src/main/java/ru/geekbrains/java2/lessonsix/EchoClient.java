@@ -6,11 +6,12 @@ import java.net.Socket;
 public class EchoClient {
     private DataInputStream inputStream;
     private DataOutputStream outputStream;
-    private static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    private static final ConsoleFacade facade = new ConsoleFacade();
 
     public EchoClient(Socket socket) throws IOException {
         inputStream = new DataInputStream(socket.getInputStream());
         outputStream = new DataOutputStream(socket.getOutputStream());
+        facade.setInputStream(inputStream);
     }
 
     public static void main(String[] args) {
@@ -31,12 +32,12 @@ public class EchoClient {
     public void messageSend() {
         while (true) {
             try {
-                String message = reader.readLine();
-                if(!message.trim().isEmpty()) {
-                    if(message.equalsIgnoreCase("/exit")) System.exit(0);
+                String message = facade.getMessageFromConsole();
+                if (message != null) {
                     outputStream.writeUTF(message);
                     System.out.println("Сообщение отправлено.");
                 }
+
             } catch (IOException e) {
                 e.printStackTrace();
                 break;
@@ -46,15 +47,11 @@ public class EchoClient {
 
     public void messageGet() {
         while (true) {
-            try {
-                String message = inputStream.readUTF();
-                System.out.println("Сервер написал: " + message);
-            } catch (IOException e) {
+            String message = facade.getMessageFromSocket(() -> {
                 System.out.println("Сервер недоступен.");
                 System.exit(0);
-                //e.printStackTrace();
-                break;
-            }
+            });
+            System.out.println("Сервер написал: " + message);
         }
     }
 

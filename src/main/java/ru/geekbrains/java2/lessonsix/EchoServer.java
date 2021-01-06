@@ -5,18 +5,20 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 public class EchoServer {
     private int clientNumber;
     private DataInputStream inputStream;
     private Socket socket;
     private static Map<Integer, Socket> clientSocket = new HashMap<>();
-    private static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    private static final ConsoleFacade facade = new ConsoleFacade();
 
     public EchoServer(Socket socket, int clientNumber) throws IOException {
         this.socket = socket;
         this.clientNumber = clientNumber;
         inputStream = new DataInputStream(socket.getInputStream());
+        facade.setInputStream(inputStream);
     }
 
     public static void main(String[] args) {
@@ -40,14 +42,14 @@ public class EchoServer {
     }
 
     public void messageGet() {
-        while (true) {
-            try {
-                String message = inputStream.readUTF();
-                System.out.println("Клиент " + clientNumber + " написал: " + message);
-            } catch (IOException e) {
+        AtomicBoolean isAlive = new AtomicBoolean(true);
+        while (isAlive.get()) {
+            String message = facade.getMessageFromSocket(() -> {
                 removeClient(clientNumber);
-                //e.printStackTrace();
-                break;
+                isAlive.set(false);
+            });
+            if (message != null) {
+                System.out.println("Клиент " + clientNumber + " написал: " + message);
             }
         }
     }
@@ -55,9 +57,8 @@ public class EchoServer {
     public static void messageSendBroadcast(Map<Integer, Socket> clients) {
         while (true) {
             try {
-                String message = reader.readLine();
-                if(message.equalsIgnoreCase("/exit")) System.exit(0);
-                if(clients.size() != 0 & !message.trim().isEmpty()) {
+                String message = facade.getMessageFromConsole();
+                if(clients.size() != 0 & message != null) {
                     for(Map.Entry<Integer, Socket> client : clients.entrySet()) {
                         DataOutputStream out = new DataOutputStream(client.getValue().getOutputStream());
                         out.writeUTF(message);

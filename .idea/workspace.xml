@@ -7,9 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/myhashtable/DoubleHashTableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/myhashtable/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/algorithms/base/myhashtable/HashTableImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +21,8 @@
         <option value="JavaFXApplication" />
         <option value="FxmlFile" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -37,7 +34,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson-7" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,7 +56,7 @@
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore.preview.features.used" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Downloads/spring-cloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -67,12 +64,12 @@
     <property name="settings.editor.selected.configurable" value="debugger.stepping" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\My docs\Обучение\geekbrains\NetworkClientChat" />
-      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat" />
-      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat\src\ru\geekbrains\java2\server\database" />
-      <recent name="D:\My docs\Обучение\geekbrains\.idea" />
-      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.geekbrains.algorithms.lesson4" />
+      <recent name="ru.geekbrains.algorithms" />
+      <recent name="ru.geekbrains.java2.command" />
+      <recent name="ru.geekbrains.java2.client.model" />
+      <recent name="ru.geekbrains.java2.client.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\My docs\Educations\geekbrains\src\main\java\ru\geekbrains\algorithms\base" />
@@ -81,18 +78,18 @@
       <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.geekbrains.algorithms.lesson8" />
+      <recent name="ru.geekbrains.algorithms.base.myhashtable" />
       <recent name="ru.geekbrains.algorithms.lesson7" />
       <recent name="ru.geekbrains.algorithms.base.mystack" />
       <recent name="ru.geekbrains.algorithms.base.myqueue" />
-      <recent name="ru.geekbrains.algorithms.lesson2" />
-      <recent name="ru.geekbrains.algorithms" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ru.geekbrains.algorithms.lesson4" />
-      <recent name="ru.geekbrains.algorithms" />
-      <recent name="ru.geekbrains.java2.command" />
-      <recent name="ru.geekbrains.java2.client.model" />
-      <recent name="ru.geekbrains.java2.client.controller" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkClientChat" />
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat" />
+      <recent name="D:\My docs\Обучение\geekbrains\NetworkServerChat\src\ru\geekbrains\java2\server\database" />
+      <recent name="D:\My docs\Обучение\geekbrains\.idea" />
+      <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TestLesson6">
@@ -304,35 +301,17 @@
       <workItem from="1605687460762" duration="134000" />
       <workItem from="1605687613988" duration="13000" />
       <workItem from="1605808278766" duration="1235000" />
-      <workItem from="1605867953432" duration="2033000" />
-    </task>
-    <task id="LOCAL-00001" summary="Add .idea folder">
-      <created>1582232080611</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1582232080611</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Some changes">
-      <created>1582232766098</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1582232766098</updated>
-    </task>
-    <task id="LOCAL-00003" summary="ДЗ Урок 1">
-      <created>1582296972418</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1582296972418</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Some changes">
-      <created>1582567295788</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1582567295788</updated>
+      <workItem from="1605867953432" duration="9865000" />
+      <workItem from="1605891406743" duration="57000" />
+      <workItem from="1605893202232" duration="1822000" />
+      <workItem from="1606118359296" duration="47000" />
+      <workItem from="1606128162784" duration="163000" />
+      <workItem from="1606296794242" duration="759000" />
+      <workItem from="1606496779310" duration="8000" />
+      <workItem from="1609673270182" duration="2948000" />
+      <workItem from="1609798011200" duration="52000" />
+      <workItem from="1610386445977" duration="45000" />
+      <workItem from="1610388639173" duration="221000" />
     </task>
     <task id="LOCAL-00005" summary="ДЗ Урок 2">
       <created>1582579659821</created>
@@ -649,7 +628,35 @@
       <option name="project" value="LOCAL" />
       <updated>1605618635184</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Prepare project">
+      <created>1605869998927</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1605869998927</updated>
+    </task>
+    <task id="LOCAL-00051" summary="HW lesson 8">
+      <created>1605878138904</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1605878138904</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Refactoring">
+      <created>1606296932388</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1606296932388</updated>
+    </task>
+    <task id="LOCAL-00053" summary="HW lesson 4">
+      <created>1609676147977</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1609676147977</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -668,7 +675,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ДЗ Урок 5" />
     <MESSAGE value="ДЗ Урок 6" />
     <MESSAGE value="Update project" />
     <MESSAGE value="ДЗ Урок 7" />
@@ -689,11 +695,12 @@
     <MESSAGE value="HW Lesson 2" />
     <MESSAGE value="HW lesson 3" />
     <MESSAGE value="println -&gt; print" />
-    <MESSAGE value="HW lesson 4" />
-    <MESSAGE value="Refactoring" />
-    <MESSAGE value="Prepare project" />
     <MESSAGE value="HW lesson 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW lesson 7" />
+    <MESSAGE value="Prepare project" />
+    <MESSAGE value="HW lesson 8" />
+    <MESSAGE value="Refactoring" />
+    <MESSAGE value="HW lesson 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW lesson 4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1400" y="94" key="#Project_Structure" timestamp="1605212989756">
@@ -704,18 +711,18 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1603888821575" />
-    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1605869493172">
+    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1609675629224">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1605869493172" />
+    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1609675629224" />
     <state x="1600" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603804061730">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1600" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1603804061730" />
-    <state x="1545" y="92" width="919" height="941" key="CommitChangelistDialog2" timestamp="1605618634597">
+    <state x="1545" y="92" width="919" height="941" key="CommitChangelistDialog2" timestamp="1609676147395">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1545" y="92" width="919" height="941" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1605618634597" />
+    <state x="1545" y="92" width="919" height="941" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1609676147395" />
     <state width="437" height="466" key="DebuggerActiveHint" timestamp="1604396323672">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -724,42 +731,38 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1605687476624" />
-    <state width="1234" height="254" key="GridCell.Tab.0.bottom" timestamp="1605618828511">
+    <state width="1234" height="251" key="GridCell.Tab.0.bottom" timestamp="1609676220905">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="254" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1605618828511" />
-    <state width="1234" height="254" key="GridCell.Tab.0.center" timestamp="1605618828510">
+    <state width="1234" height="251" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1609676220905" />
+    <state width="1234" height="251" key="GridCell.Tab.0.center" timestamp="1609676220905">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="254" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1605618828510" />
-    <state width="1234" height="254" key="GridCell.Tab.0.left" timestamp="1605618828510">
+    <state width="1234" height="251" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1609676220905" />
+    <state width="1234" height="251" key="GridCell.Tab.0.left" timestamp="1609676220905">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="254" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1605618828510" />
-    <state width="1234" height="254" key="GridCell.Tab.0.right" timestamp="1605618828511">
+    <state width="1234" height="251" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1609676220905" />
+    <state width="1234" height="251" key="GridCell.Tab.0.right" timestamp="1609676220905">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="254" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1605618828511" />
-    <state width="1234" height="338" key="GridCell.Tab.1.bottom" timestamp="1604400095367">
+    <state width="1234" height="251" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1609676220905" />
+    <state width="1234" height="336" key="GridCell.Tab.1.bottom" timestamp="1605878313739">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="338" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1604400095367" />
-    <state width="1234" height="338" key="GridCell.Tab.1.center" timestamp="1604400095367">
+    <state width="1234" height="336" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1605878313739" />
+    <state width="1234" height="336" key="GridCell.Tab.1.center" timestamp="1605878313739">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="338" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1604400095367" />
-    <state width="1234" height="338" key="GridCell.Tab.1.left" timestamp="1604400095367">
+    <state width="1234" height="336" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1605878313739" />
+    <state width="1234" height="336" key="GridCell.Tab.1.left" timestamp="1605878313739">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="338" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1604400095367" />
-    <state width="1234" height="338" key="GridCell.Tab.1.right" timestamp="1604400095367">
+    <state width="1234" height="336" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1605878313739" />
+    <state width="1234" height="336" key="GridCell.Tab.1.right" timestamp="1605878313739">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="338" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1604400095367" />
-    <state x="496" y="89" key="MergeDialog" timestamp="1599735279855">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="496" y="89" key="MergeDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1599735279855" />
+    <state width="1234" height="336" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1605878313739" />
     <state x="1710" y="226" key="RollbackChangesDialog" timestamp="1603791133462">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -772,18 +775,18 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.2560.1040@0.0.2560.1040" timestamp="1605868502956" />
-    <state x="1641" y="268" width="570" height="524" key="StructurePopup" timestamp="1605869125456">
+    <state x="1641" y="268" width="570" height="524" key="StructurePopup" timestamp="1605870560438">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1641" y="268" width="570" height="524" key="StructurePopup/0.0.2560.1040@0.0.2560.1040" timestamp="1605869125456" />
-    <state x="1512" y="256" key="Vcs.Push.Dialog.v2" timestamp="1605618636611">
+    <state x="1641" y="268" width="570" height="524" key="StructurePopup/0.0.2560.1040@0.0.2560.1040" timestamp="1605870560438" />
+    <state x="1512" y="256" key="Vcs.Push.Dialog.v2" timestamp="1609676149867">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1605618636611" />
-    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605808304712">
+    <state x="1512" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1609676149867" />
+    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606296981863">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1605808304712" />
+    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1606296981863" />
     <state x="1650" y="284" key="extract.method.dialog" timestamp="1605618208310">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -796,17 +799,13 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1720" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602839524663" />
-    <state x="1302" y="140" key="new project wizard" timestamp="1603888737857">
+    <state x="1302" y="140" key="new project wizard" timestamp="1606118403579">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1302" y="140" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1603888737857" />
-    <state x="1656" y="87" width="672" height="678" key="search.everywhere.popup" timestamp="1605869103006">
+    <state x="1302" y="140" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1606118403579" />
+    <state x="1656" y="87" width="672" height="678" key="search.everywhere.popup" timestamp="1605870066806">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1656" y="87" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1605869103006" />
-    <state x="1603" y="203" key="spring file set editor" timestamp="1599728445126">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1603" y="203" key="spring file set editor/0.0.2560.1040@0.0.2560.1040" timestamp="1599728445126" />
+    <state x="1656" y="87" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1605870066806" />
   </component>
 </project>

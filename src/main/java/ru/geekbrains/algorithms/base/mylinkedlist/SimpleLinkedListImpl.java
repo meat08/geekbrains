@@ -1,7 +1,5 @@
 package ru.geekbrains.algorithms.base.mylinkedlist;
 
-import java.util.Iterator;
-
 public class SimpleLinkedListImpl<E> implements LinkedList<E> {
 
     protected int size;
@@ -89,10 +87,5 @@ public class SimpleLinkedListImpl<E> implements LinkedList<E> {
             current = current.next;
         }
         System.out.println("-----------");
-    }
-
-    @Override
-    public Iterator<E> iterator() {
-        return new ListIterator<>(firstElement);
     }
 }

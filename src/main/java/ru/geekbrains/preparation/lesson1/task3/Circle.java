@@ -1,6 +1,6 @@
 package ru.geekbrains.preparation.lesson1.task3;
 
-public class Circle extends Shape {
+public class Circle implements Shape {
     private final int radius;
 
     public Circle(int radius) {

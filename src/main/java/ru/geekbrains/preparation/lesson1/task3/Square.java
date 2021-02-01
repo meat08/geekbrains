@@ -1,6 +1,6 @@
 package ru.geekbrains.preparation.lesson1.task3;
 
-public class Square extends Shape {
+public class Square implements Shape {
     private final int sideLength;
 
     public Square(int sideLength) {

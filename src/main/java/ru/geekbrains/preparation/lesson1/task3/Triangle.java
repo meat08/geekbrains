@@ -1,6 +1,6 @@
 package ru.geekbrains.preparation.lesson1.task3;
 
-public class Triangle extends Shape {
+public class Triangle implements Shape {
     private final int base;
     private final int height;
 

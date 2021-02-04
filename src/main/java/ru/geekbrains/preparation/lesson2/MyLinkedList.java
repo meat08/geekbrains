@@ -2,7 +2,7 @@ package ru.geekbrains.preparation.lesson2;
 
 import java.util.Iterator;
 
-//Простой связанный список, без методов вставки в начало, без индексов и пр.
+//Простой связанный список, без методов вставки в конец, без индексов и пр.
 public interface MyLinkedList<E> extends Iterable<E> {
     void add(E value);
     boolean remove(E value);

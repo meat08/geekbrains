@@ -1,26 +1,35 @@
 package ru.geekbrains.preparation.lesson3;
 
 import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
-public class Counter extends Thread {
-    private static int counter = 0;
-    private static final int LIMIT = 20;
-    private final Lock lock;
+public class Counter {
+    private int value;
+    private Lock lock;
 
-    public Counter(Lock lock) {
-        this.lock = lock;
+    public Counter() {
+        this.lock = new ReentrantLock();
     }
 
-    @Override
-    public void run() {
-        while (counter < LIMIT) {
+    public void increment() {
+        try {
             lock.lock();
-            try {
-                System.out.println(Thread.currentThread().getName() + " : " + counter);
-                counter++;
-            } finally {
-                lock.unlock();
-            }
+            value++;
+        } finally {
+            lock.unlock();
         }
+    }
+
+    public void decrement() {
+        try {
+            lock.lock();
+            value--;
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    public int get() {
+        return value;
     }
 }

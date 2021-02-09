@@ -2,7 +2,7 @@ package ru.geekbrains.preparation.lesson3;
 
 import java.util.concurrent.locks.Lock;
 
-public class Counter implements Runnable {
+public class Counter extends Thread {
     private static int counter = 0;
     private static final int LIMIT = 20;
     private final Lock lock;

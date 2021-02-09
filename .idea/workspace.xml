@@ -6,8 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="">
+    <list default="true" id="85edf002-cbc0-4cc2-8080-633e7ff6a8dc" name="Default Changelist" comment="HW lesson 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/preparation/lesson3/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/preparation/lesson3/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/preparation/lesson3/PingPong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/preparation/lesson3/PingPong.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +23,8 @@
         <option value="JavaFXApplication" />
         <option value="FxmlFile" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -34,7 +36,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lesson-3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,7 +94,7 @@
       <recent name="D:\My docs\Обучение\geekbrains\src\ru\geekbrains\java1\lessoneight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestLesson6">
+  <component name="RunManager" selected="Application.TestLesson3">
     <configuration name="NetworkClient" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.NetworkClient" />
       <module name="NetworkClientChat" />
@@ -106,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunMyTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java3.lessonseven.RunMyTests" />
+    <configuration name="TestLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.preparation.lesson1.TestLesson" />
       <module name="geekbrains" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java3.lessonseven.*" />
+          <option name="PATTERN" value="ru.geekbrains.preparation.lesson1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,25 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArraySorts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.algorithms.lesson2.TestArraySorts" />
+    <configuration name="TestLesson3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.preparation.lesson3.TestLesson3" />
       <module name="geekbrains" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.rtfm.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLesson6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.algorithms.lesson6.TestLesson6" />
-      <module name="geekbrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.geekbrains.algorithms.lesson6.*" />
+          <option name="PATTERN" value="ru.geekbrains.preparation.lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,19 +155,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.NetworkClient" />
-      <item itemvalue="Application.TestArraySorts" />
-      <item itemvalue="Application.RunMyTests" />
-      <item itemvalue="Application.TestLesson6" />
+      <item itemvalue="Application.TestLesson" />
+      <item itemvalue="Application.TestLesson3" />
       <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
       <item itemvalue="JUnit.ClassForTestsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestLesson3" />
         <item itemvalue="JUnit.ClassForTestsTest" />
         <item itemvalue="JUnit.ClassForTestsTest.isOneAndFourInArrayTest" />
-        <item itemvalue="Application.TestLesson6" />
-        <item itemvalue="Application.RunMyTests" />
-        <item itemvalue="Application.TestArraySorts" />
+        <item itemvalue="Application.TestLesson" />
+        <item itemvalue="Application.TestLesson3" />
       </list>
     </recent_temporary>
   </component>
@@ -312,48 +300,23 @@
       <workItem from="1609798011200" duration="52000" />
       <workItem from="1610386445977" duration="45000" />
       <workItem from="1610388639173" duration="221000" />
-    </task>
-    <task id="LOCAL-00005" summary="ДЗ Урок 2">
-      <created>1582579659821</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1582579659821</updated>
-    </task>
-    <task id="LOCAL-00006" summary="ДЗ Урок 3">
-      <created>1582982455149</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1582982455149</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Rename Map class">
-      <created>1583172357228</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1583172357228</updated>
-    </task>
-    <task id="LOCAL-00008" summary="ДЗ Урок 4">
-      <created>1583265941475</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1583265941476</updated>
-    </task>
-    <task id="LOCAL-00009" summary="ДЗ Урок 5">
-      <created>1583495729873</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1583495729873</updated>
-    </task>
-    <task id="LOCAL-00010" summary="ДЗ Урок 6">
-      <created>1584101650759</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1584101650759</updated>
+      <workItem from="1610539131127" duration="455000" />
+      <workItem from="1610630329637" duration="26000" />
+      <workItem from="1610873052596" duration="834000" />
+      <workItem from="1610879371760" duration="604000" />
+      <workItem from="1610880306559" duration="162000" />
+      <workItem from="1610880756784" duration="101000" />
+      <workItem from="1610961896248" duration="10000" />
+      <workItem from="1611940067583" duration="1173000" />
+      <workItem from="1611944887127" duration="41000" />
+      <workItem from="1612165214388" duration="7088000" />
+      <workItem from="1612173926455" duration="103000" />
+      <workItem from="1612189520397" duration="20000" />
+      <workItem from="1612285149141" duration="4541000" />
+      <workItem from="1612428124575" duration="6000000" />
+      <workItem from="1612544446618" duration="3553000" />
+      <workItem from="1612774512582" duration="5797000" />
+      <workItem from="1612890292163" duration="703000" />
     </task>
     <task id="LOCAL-00011" summary="Update project">
       <created>1584384067902</created>
@@ -656,7 +619,49 @@
       <option name="project" value="LOCAL" />
       <updated>1609676147977</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="prepare project">
+      <created>1610539315149</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1610539315149</updated>
+    </task>
+    <task id="LOCAL-00055" summary="HW lesson 5">
+      <created>1610539417622</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1610539417622</updated>
+    </task>
+    <task id="LOCAL-00056" summary="HW lesson 1">
+      <created>1612172585323</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1612172585324</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Changed Shape.class to interface">
+      <created>1612174016236</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1612174016236</updated>
+    </task>
+    <task id="LOCAL-00058" summary="HW lesson 2">
+      <created>1612445860650</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1612445860651</updated>
+    </task>
+    <task id="LOCAL-00059" summary="HW lesson 3">
+      <created>1612781771497</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1612781771498</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,11 +680,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ДЗ Урок 6" />
-    <MESSAGE value="Update project" />
-    <MESSAGE value="ДЗ Урок 7" />
-    <MESSAGE value="Update ClientChat" />
-    <MESSAGE value="Add Sqlite DB" />
     <MESSAGE value="J3 ДЗ Урок 2" />
     <MESSAGE value="J3 ДЗ Урок 3" />
     <MESSAGE value="J3 ДЗ Урок 4" />
@@ -693,36 +693,41 @@
     <MESSAGE value="J3 ДЗ Урок 6" />
     <MESSAGE value="Some updates" />
     <MESSAGE value="HW Lesson 2" />
-    <MESSAGE value="HW lesson 3" />
     <MESSAGE value="println -&gt; print" />
     <MESSAGE value="HW lesson 7" />
     <MESSAGE value="Prepare project" />
     <MESSAGE value="HW lesson 8" />
     <MESSAGE value="Refactoring" />
     <MESSAGE value="HW lesson 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW lesson 4" />
+    <MESSAGE value="prepare project" />
+    <MESSAGE value="HW lesson 5" />
+    <MESSAGE value="HW lesson 1" />
+    <MESSAGE value="Changed Shape.class to interface" />
+    <MESSAGE value="HW lesson 2" />
+    <MESSAGE value="HW lesson 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW lesson 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1400" y="94" key="#Project_Structure" timestamp="1605212989756">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1400" y="94" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1605212989756" />
-    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603888821575">
+    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612779903683">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1603888821575" />
-    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1609675629224">
+    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1612779903683" />
+    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1612776607592">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1609675629224" />
-    <state x="1600" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603804061730">
+    <state x="1728" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1612776607592" />
+    <state x="1665" y="43" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612775461896">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1600" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1603804061730" />
-    <state x="1545" y="92" width="919" height="941" key="CommitChangelistDialog2" timestamp="1609676147395">
+    <state x="1665" y="43" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1612775461896" />
+    <state x="1545" y="92" width="919" height="941" key="CommitChangelistDialog2" timestamp="1612781770878">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1545" y="92" width="919" height="941" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1609676147395" />
+    <state x="1545" y="92" width="919" height="941" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1612781770878" />
     <state width="437" height="466" key="DebuggerActiveHint" timestamp="1604396323672">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -731,42 +736,38 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1595" y="235" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1605687476624" />
-    <state width="1234" height="251" key="GridCell.Tab.0.bottom" timestamp="1609676220905">
+    <state width="1234" height="251" key="GridCell.Tab.0.bottom" timestamp="1612890925538">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="251" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1609676220905" />
-    <state width="1234" height="251" key="GridCell.Tab.0.center" timestamp="1609676220905">
+    <state width="1234" height="251" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1612890925538" />
+    <state width="1234" height="251" key="GridCell.Tab.0.center" timestamp="1612890925537">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="251" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1609676220905" />
-    <state width="1234" height="251" key="GridCell.Tab.0.left" timestamp="1609676220905">
+    <state width="1234" height="251" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1612890925537" />
+    <state width="1234" height="251" key="GridCell.Tab.0.left" timestamp="1612890925537">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="251" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1609676220905" />
-    <state width="1234" height="251" key="GridCell.Tab.0.right" timestamp="1609676220905">
+    <state width="1234" height="251" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1612890925537" />
+    <state width="1234" height="251" key="GridCell.Tab.0.right" timestamp="1612890925537">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="251" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1609676220905" />
-    <state width="1234" height="336" key="GridCell.Tab.1.bottom" timestamp="1605878313739">
+    <state width="1234" height="251" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1612890925537" />
+    <state width="1234" height="333" key="GridCell.Tab.1.bottom" timestamp="1612781888821">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="336" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1605878313739" />
-    <state width="1234" height="336" key="GridCell.Tab.1.center" timestamp="1605878313739">
+    <state width="1234" height="333" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1612781888821" />
+    <state width="1234" height="333" key="GridCell.Tab.1.center" timestamp="1612781888821">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="336" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1605878313739" />
-    <state width="1234" height="336" key="GridCell.Tab.1.left" timestamp="1605878313739">
+    <state width="1234" height="333" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1612781888821" />
+    <state width="1234" height="333" key="GridCell.Tab.1.left" timestamp="1612781888821">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="336" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1605878313739" />
-    <state width="1234" height="336" key="GridCell.Tab.1.right" timestamp="1605878313739">
+    <state width="1234" height="333" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1612781888821" />
+    <state width="1234" height="333" key="GridCell.Tab.1.right" timestamp="1612781888821">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1234" height="336" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1605878313739" />
-    <state x="1710" y="226" key="RollbackChangesDialog" timestamp="1603791133462">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1710" y="226" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1603791133462" />
+    <state width="1234" height="333" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1612781888821" />
     <state x="1421" y="165" key="SettingsEditor" timestamp="1604396998793">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -779,26 +780,18 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1641" y="268" width="570" height="524" key="StructurePopup/0.0.2560.1040@0.0.2560.1040" timestamp="1605870560438" />
-    <state x="1512" y="256" key="Vcs.Push.Dialog.v2" timestamp="1609676149867">
+    <state x="1512" y="256" key="Vcs.Push.Dialog.v2" timestamp="1612781773744">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1609676149867" />
-    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606296981863">
+    <state x="1512" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1612781773744" />
+    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612890305968">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1606296981863" />
+    <state x="1729" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1612890305968" />
     <state x="1650" y="284" key="extract.method.dialog" timestamp="1605618208310">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1650" y="284" key="extract.method.dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1605618208310" />
-    <state x="1699" y="236" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604056155578">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1699" y="236" key="git4idea.branch.GitSmartOperationDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604056155578" />
-    <state x="1720" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602839524663">
-      <screen x="0" y="0" width="2560" height="1040" />
-    </state>
-    <state x="1720" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602839524663" />
     <state x="1302" y="140" key="new project wizard" timestamp="1606118403579">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

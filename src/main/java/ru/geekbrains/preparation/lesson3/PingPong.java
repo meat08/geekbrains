@@ -2,7 +2,7 @@ package ru.geekbrains.preparation.lesson3;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class PingPong implements Runnable {
+public class PingPong extends Thread {
     private final Object lockObject;
     private final String name;
     private final AtomicInteger counter;
